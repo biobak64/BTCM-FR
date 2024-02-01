@@ -837,7 +837,7 @@ void render_hud_timer(void) {
         case LANGUAGE_GERMAN:  print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(150), 185,  "ZEIT"); break;
     }
 #else
-    print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(150), 185, "TIME");
+    print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(150), 185, "TEMPS ");
 #endif
 
     print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(91), 185, "%0d", timerMins);
@@ -993,46 +993,46 @@ void render_hud(void) {
 
             switch(gMarioState->gCurrMinigame) {
                 case 1://arena
-                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "ROUND %d", gMarioState->EA_WAVES);
+                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "VAGUE %d", gMarioState->EA_WAVES);
                     print_text_fmt_int2(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "%dQ%d", gMarioState->EA_LEFT, gMarioState->EA_TOTAL);
                     if (minigame_real) {
-                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-36, "HI %d", save_file_get_hiscore(0));
+                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-36, "RECORD %d", save_file_get_hiscore(0));
                     }
                 break;
                 case 2://hotrope
-                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "SCORE %d", gMarioState->EA_WAVES);
+                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "SAUTS %d", gMarioState->EA_WAVES);
                     if (minigame_real) {
-                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "HI %d", save_file_get_hiscore(1));
+                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "RECORD %d", save_file_get_hiscore(1));
                     }
                 break;
                 case 3://hexagonheat
                     print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "SCORE %d", gMarioState->EA_WAVES);
                     if (minigame_real) {
-                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "HI %d", save_file_get_hiscore(2));
+                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "RECORD %d", save_file_get_hiscore(2));
                     }
                 break;
                 case 4://snakio
-                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "LENGTH %d", gMarioState->EA_WAVES);
+                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "TAILLE %d", gMarioState->EA_WAVES);
                     if (minigame_real) {
-                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "HI %d", save_file_get_hiscore(3));
+                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "RECORD %d", save_file_get_hiscore(3));
                     }
                 break;
                 case 5://edsurv
-                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "EDWARDS %d", gMarioState->EA_WAVES);
+                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "EDOUARDS %d", gMarioState->EA_WAVES);
                     if (minigame_real) {
-                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "HI %d", save_file_get_hiscore(4));
+                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "RECORD %d", save_file_get_hiscore(4));
                     }
                 break;
                 case 6://bapple
-                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "SCORE %d", gMarioState->EA_WAVES);
+                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "POINTS %d", gMarioState->EA_WAVES);
                     if (minigame_real) {
-                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "HI %d", save_file_get_hiscore(5));
+                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "RECORD %d", save_file_get_hiscore(5));
                     }
                 break;
                 case 7://flappy bird
                     print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "SCORE %d", gMarioState->EA_WAVES);
                     if (minigame_real) {
-                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "HI %d", save_file_get_hiscore(6));
+                        print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "RECORD %d", save_file_get_hiscore(6));
                     }
                 break;
             }

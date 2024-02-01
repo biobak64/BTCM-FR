@@ -1016,6 +1016,11 @@ int gPressedStart = 0;
 
 u8 playtimer = 0;
 
+#ifdef TEXT_BOX_DEBUG
+    extern u8 textBoxId;
+    #include "dialog_ids.h"
+#endif
+
 s32 play_mode_normal(void) {
     event_main();
 
@@ -1071,6 +1076,13 @@ s32 play_mode_normal(void) {
             set_play_mode(PLAY_MODE_PAUSED);
         }
     }
+
+#ifdef TEXT_BOX_DEBUG
+    print_text_fmt_int(10, 10, "%d", textBoxId);
+    if(gPlayer1Controller->buttonPressed & R_JPAD && textBoxId < DIALOG_COUNT){
+        cutscene_object_with_dialog(CUTSCENE_DIALOG, gMarioObject, textBoxId);
+    }
+#endif
 
     return FALSE;
 }

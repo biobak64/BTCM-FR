@@ -279,31 +279,29 @@ enum DialogBoxType {
 #define DEFAULT_DIALOG_BOX_ANGLE 90.0f
 #define DEFAULT_DIALOG_BOX_SCALE 19.0f
 
+//----------------------------------------EDITED CHAR WIDTHS TABLE-----------------------------//
+
 u8 gDialogCharWidths[256] = { // TODO: Is there a way to auto generate this?
-    7,  7,  7,  7,  7,  7,  7,  7,  7,  7,  6,  6,  6,  6,  6,  6,
-    6,  6,  5,  6,  6,  5,  8,  8,  6,  6,  6,  6,  6,  5,  6,  6,
-    8,  7,  6,  6,  6,  5,  5,  6,  5,  5,  6,  5,  4,  5,  5,  3,
-    7,  5,  5,  5,  6,  5,  5,  5,  5,  5,  7,  7,  5,  5,  4,  4,
-    8,  6,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-    8,  8,  8,  8,  7,  7,  6,  7,  7,  0,  0,  0,  0,  0,  0,  0,
-#ifdef VERSION_EU
-    6,  6,  6,  0,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  0,  4,
-    5,  5,  5,  5,  6,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  0,
-    5,  5,  5,  0,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-    0,  5,  5,  0,  0,  6,  6,  0,  0,  0,  0,  0,  0,  0,  5,  6,
-    0,  4,  4,  0,  0,  5,  5,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-#else
-    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4,
-    8,  8,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  5,  6,
-    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-#endif
-    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-    7,  5, 10,  5,  9,  8,  4,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-    0,  0,  5,  7,  7,  6,  6,  8,  0,  8, 10,  6,  4, 10,  0,  0
+/*0-9*/ 7,  7,  7,  7,  7,  7,  7,  7,  7,  7,                                                                 //9
+/*A-Z*/ 6,  6,  6,  6,  6,  6,  6,  6,  5,  6,  6,  5,  8,  8,  6,  6,  6,  6,  6,  5,  6,  6,  8,  7,  6,  6, //35
+/*a-z*/ 6,  5,  5,  6,  5,  5,  6,  5,  4,  5,  5,  3,  7,  5,  5,  5,  6,  5,  5,  5,  5,  5,  7,  7,  5,  5, //61
+/*' .*/ 4,  4,  /*   */ 8,  6,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0, //79
+/*C-L*/ 8,  8,  8,  8,  7,  7,  6,  7,  7,  7,  /*   */ 4,  6,  0,  0,  0,  0, //95
+/*a-A*/ 6,  6,  6,  6,  6,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  4, //111
+/*e-E*/ 5,  5,  5,  5,  6,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  0, //127
+/*u-U*/ 5,  5,  5,  5,  6,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  0, //143
+/*o-O*/ 5,  5,  5,  5,  6,  6,  6,  6,  0,  0,  0,  0,  0,  0,  5,  6, //159
+/*i-I*/ 5,  5,  5,  5,  6,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  0, //175
+    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,     //191
+    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,     //207
+    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,     //223
+/*[%]*/ 7,                                                             //224
+/*( - )( - )*/  5,  10, 5,                                             //227
+/* ↔ & : / \ @ #°ßÇç„*/ 9,  8,  4,  6,  6,  9,  7,  4,  5,  6,  5,  6, //239
+/* ID 0xF0-0xF1 can'te be assigned for some reasons */ 0, 0,           //241
+/*°!%?『』*/   5,  7,  7,  6,  6,                                      //246
+/*~…$★×・☆*/  8, 10,  8, 10,  6,  4, 10,                              //253
+    0,  0                                                              //255
 };
 
 s8 gDialogBoxState = DIALOG_STATE_OPENING;
@@ -968,7 +966,7 @@ void int_to_str_slash(s32 num, s32 num2, u8 *dst) {
     }
 
     dst[pos++] = digit3;
-    dst[pos++] = 0x70;
+    dst[pos++] = 0xE7;
 
     int_to_str(num2,slashstring);
 
@@ -1349,7 +1347,7 @@ void render_dialog_triangle_next(s8 linesPerBox) {
         return;
     }
 
-    create_dl_translation_matrix(MENU_MTX_PUSH, X_VAL5, (linesPerBox * Y_VAL5_1) + Y_VAL5_2, 0);
+    create_dl_translation_matrix(MENU_MTX_PUSH, X_VAL5 / 2 , (linesPerBox * Y_VAL5_1) + Y_VAL5_2 - 10, 0);
     create_dl_scale_matrix(MENU_MTX_NOPUSH, X_Y_VAL6, X_Y_VAL6, 1.0f);
     create_dl_rotation_matrix(MENU_MTX_NOPUSH, -DEFAULT_DIALOG_BOX_ANGLE, 0, 0, 1.0f);
 
@@ -1675,7 +1673,7 @@ void render_dialog_entries(void) {
     gDPSetScissor(gDisplayListHead++, G_SC_NON_INTERLACE,
                   // Horizontal scissoring isn't really required and can potentially mess up widescreen enhancements.
                   0,
-                  ensure_nonnegative(DIAG_VAL2 - dialog->width),
+                  ensure_nonnegative(DIAG_VAL2 - 5 - dialog->width),
                   SCREEN_WIDTH,
                   ensure_nonnegative(240 + ((dialog->linesPerBox * 80) / DIAG_VAL4) - dialog->width));
 
@@ -2670,7 +2668,7 @@ s32 render_pause_courses_and_castle(void) {
             //MysteryBadge_Plane_001_mesh
 
             //print badge capacity
-            print_text_fmt_int2(90, 30, "BP %dQ%d", gMarioState->numEquippedBadges, gMarioState->numMaxBP);
+            print_text_fmt_int2(90, 30, "PB %dQ%d", gMarioState->numEquippedBadges, gMarioState->numMaxBP);
 
             for (i=0;i<24;i++) {
                 soffset = -40;
@@ -2705,7 +2703,7 @@ s32 render_pause_courses_and_castle(void) {
         case 2://upgradestation
             shade_screen();
             render_hud_power_meter();
-            print_text_fmt_int(25+(gMarioState->numMaxHP*8), 20, "BP %d", gMarioState->numMaxBP);
+            print_text_fmt_int(25+(gMarioState->numMaxHP*8), 20, "PB %d", gMarioState->numMaxBP);
 
             gSPDisplayList(gDisplayListHead++, dl_ia_text_begin);
 
@@ -2731,7 +2729,7 @@ s32 render_pause_courses_and_castle(void) {
 
             gSPDisplayList(gDisplayListHead++, dl_ia_text_end);
 
-            print_text_fmt_int2(30, 100, "COST $%d ^%d", UPGRADE_TABLE[gMarioState->Level+1][0], UPGRADE_TABLE[gMarioState->Level+1][1]);
+            print_text_fmt_int2(30, 100, "COUT $%d ^%d", UPGRADE_TABLE[gMarioState->Level+1][0], UPGRADE_TABLE[gMarioState->Level+1][1]);
             if (gPlayer1Controller->buttonPressed & (A_BUTTON|B_BUTTON)) {
                 if ((gMarioState->numGlobalCoins >= UPGRADE_TABLE[gMarioState->Level+1][0])&&(gMarioState->numStars>=UPGRADE_TABLE[gMarioState->Level+1][1])) {
                     
@@ -2792,9 +2790,9 @@ s32 render_pause_courses_and_castle(void) {
             gSPDisplayList(gDisplayListHead++, dl_ia_text_begin);
             //is toggled on??
             gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, 255);
-            print_generic_string(44,165, optiontext);
+            print_generic_string(54,165, optiontext);
             gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
-            print_generic_string(45,166, optiontext);
+            print_generic_string(55,166, optiontext);
 
 
             for (i=0;i<7;i++) {
@@ -2934,9 +2932,9 @@ s32 render_pause_courses_and_castle(void) {
             gSPDisplayList(gDisplayListHead++, dl_ia_text_begin);
             //is toggled on??
             gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, 255);
-            print_generic_string(44,165, cheattext);
+            print_generic_string(54,165, cheattext);
             gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
-            print_generic_string(45,166, cheattext);
+            print_generic_string(55,166, cheattext);
 
             
             //cheat desc
