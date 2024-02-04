@@ -16,4 +16,5 @@ void scroll_textures_wdw() {
 	scroll_wdw_level_geo_movie8();
 	scroll_wdw_level_geo_movie_9();
 	scroll_wdw_level_geo_robozo2();
+	scroll_wdw();
 }

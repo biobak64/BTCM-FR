@@ -224,7 +224,7 @@ this royal turf? I think\n\
 that you cannot!"))
 
 DEFINE_DIALOG(DIALOG_018, 1, 4, 95, 180, _("\
-Arrr ! Bievenue à bord,\n\
+Arrr ! Bienvenue à bord,\n\
 moussaillon ! Des boo\n\
 de malheur ont envahi\n\
 not'navire.\n\
@@ -239,7 +239,7 @@ moussaillon ?\n\
 Un rafiot maléfique nous\n\
 hante, nous et notre navire,\n\
 depuis la nuit des temps.\n\
-Si tu l'ôses, libère le fléau\n\
+Si tu l'oses, libère le fléau\n\
 et mets fin à sa tyrannie\n\
 une bonne fois pour toutes !"))
 
@@ -281,17 +281,16 @@ On dirait que cette porte a été verrouillée par\n\
 le Présentateur. Peut-être faudra-t-il \n\
 revenir après un évènement important ?"))
 
-DEFINE_DIALOG(DIALOG_029, 1, 5, 95, 180, _("\
-Sheriff Mario...\n\
-You've done it!\n\
-You deserve a golden\n\
-belt buckle for that!"))
+DEFINE_DIALOG(DIALOG_029, 1, 3, 95, 180, _("\
+Tu nous as sauvés ! T'es not'\n\
+nouveau shérif, maintenant.\n\
+Allez, prends ton badge !"))
 
 DEFINE_DIALOG(DIALOG_030, 1, 4, 95, 180, _("\
 Ah, un visiteur !\n\
-Bienvenue dans ma\n\
-boutique SUPER\n\
-SECRÈTE !\n\
+Bienvenue dans ma boutique\n\
+SUPER SECRÈTE !!\n\
+\n\
 Si je me cache, c'est\n\
 parce que sinon j'aurais\n\
 trop de clients ! Mes\n\
@@ -565,18 +564,18 @@ V I E ! ! !"))
 
 DEFINE_DIALOG(DIALOG_058, 1, 2, 95, 180, _("\
 Tu places ton oeil sur\n\
-le téléscope, et tu vois...\n\
+le télescope, et tu vois...\n\
 Rien du tout. On dirait\n\
 qu'il manque la lentille..."))
 
 DEFINE_DIALOG(DIALOG_059, 1, 2, 95, 180, _("\
 Tu fixes la lentille\n\
-sur le téléscope..."))
+sur le télescope..."))
 
 DEFINE_DIALOG(DIALOG_060, 1, 4, 95, 180, _("\
 Alors que tu regardes\n\
 le ciel à travers le\n\
-téléscope, tu sens ton\n\
+télescope, tu sens ton\n\
 âme s'envoler..."))
 
 DEFINE_DIALOG(DIALOG_061, 1, 5, 95, 180, _("\
@@ -684,7 +683,7 @@ Aaaahhhh...\n\
 Je vous remercie, Mario.\n\
 Je sens la force maléfique\n\
 enfin quitter mon corps.\n\
-Le peuple Twhomp vous doit\n\
+Le peuple Thwomp vous doit\n\
 la reconnaissance éternelle\n\
 pour vos actes de bravoure.\n\
 Vous avez extrait de\n\
@@ -726,9 +725,9 @@ solide Roi !"))
 
 DEFINE_DIALOG(DIALOG_076, 1, 2, 95, 180, _("\
 Un civil a osé me\n\
-traîter de POULET !\n\
+traiter de POULET !\n\
 Personne n'a le droit de\n\
-me traîter de poulet !!\n\
+me traiter de poulet !!\n\
 J'ressemble pas à\n\
 un poulet, hein ?"))
 
@@ -749,7 +748,7 @@ des étoiles.\n\
 les champs d'octets, et à\n\
 notre gauche, la station de\n\
 tramway. Le grand couloir\n\
-mène diretement au bureau\n\
+mène directement au bureau\n\
 de %DONNÉES SUPPRIMÉES%."))
 
 DEFINE_DIALOG(DIALOG_078, 1, 5, 95, 180, _("\
@@ -776,7 +775,7 @@ Bonjour !\n\
 Nous sommes des IA\n\
 appelées %ÊTRES NÉANT%\n\
 générées par le Virtuaplex\n\
-dans le but de constuire\n\
+dans le but de construire\n\
 cette merveilleuse ville.\n\
 Si tu remarques un\n\
 comportement anormal de\n\
@@ -991,7 +990,7 @@ Merci de faire preuve\n\
 de prudence."))
 
 DEFINE_DIALOG(DIALOG_114, 1, 3, 95, 180, _("\
-Ce roi pathétique traîte\n\
+Ce roi pathétique traite\n\
 les Whomp comme une espèce\n\
 inférieure aux Thwomp.\n\
 Il nous force à construire\n\
@@ -1105,7 +1104,7 @@ peu d'musique.\n\
 DEFINE_DIALOG(DIALOG_120, 1, 7, 95, 180, _("\
 Conduire une calèche,\n\
 c'est facile ! Saute\n\
-dessus, et maintiens le\n\
+dessus et maintiens le\n\
 stick analogique dans la\n\
 direction souhaitée.\n\
 Pour descendre, il\n\
@@ -1115,8 +1114,8 @@ DEFINE_DIALOG(DIALOG_121, 1, 6, 95, 180, _("\
 Ah, ces mauvaises herbes !\n\
 Elles sont en train d'me\n\
 bousiller mon champ.\n\
-J'te paierai grassement\n\
-si tu m'les arraches !\n\
+Je paierai grassement\n\
+quiconque m'les arrache !\n\
 -- Le fermier"))
 
 DEFINE_DIALOG(DIALOG_122, 1, 5, 95, 180, _("\
@@ -1219,7 +1218,7 @@ Elles sont pourtant si\n\
 étroitement gardées !\n\
 Serait-ce grâce à toi ?\n\
 Je fais partie des Rebelles.\n\
-Nous ne somme plus qu'une\n\
+Nous ne sommes plus qu'une\n\
 douzaine. Nous descendons\n\
 des marins qui autrefois\n\
 ont dompté ces mers, et\n\
@@ -1288,7 +1287,7 @@ Mario, je te prie d'accepter\n\
 mon éternelle gratitude.\n\
 Le royaume t'est redevable.\n\
 La Reine et moi te\n\
-gaderons toujours dans\n\
+garderons toujours dans\n\
 nos coeurs de pierre."))
 
 DEFINE_DIALOG(DIALOG_134, 1, 1, 95, 180, _("\
@@ -1523,14 +1522,14 @@ They make me feel...\n\
 back and visit anytime."))
 
 DEFINE_DIALOG(DIALOG_153, 1, 4, 95, 180, _("\
-Can't let you pass.\n\
-Leader's orders.\n\
+Hep ! On passe pas.\n\
+Le chef m'a demandé de\n\
+monter la garde.\n\
 \n\
-\n\
-If you want to talk to\n\
-him yourself, he's on the\n\
-tall pillar in Thwomp\n\
-Towers."))
+Si tu veux discuter les\n\
+ordres, c'est à lui qu'il\n\
+faut parler. Il est en haut\n\
+d'un pilier aux Tours Thwomp."))
 
 //DIALOG_169
 DEFINE_DIALOG(DIALOG_154, 1, 6, 95, 180, _("\
@@ -1547,7 +1546,7 @@ le présentateur...\n\
 Du coup, maintenant je\n\
 suis au chômage !\n\
 T'as intérêt à te\n\
-rattrapper et détruire\n\
+rattraper et détruire\n\
 cette horrible lune..."))
 
 DEFINE_DIALOG(DIALOG_155, 1, 6, 30, 200, _("\
@@ -1598,13 +1597,13 @@ le dvd quand il sort"))
 
 DEFINE_DIALOG(DIALOG_157, 1, 4, 95, 180, _("\
 Entretenir la station de\n\
-traîtement d'étoies, c'est\n\
+traitement d'étoiles, c'est\n\
 pas tâche aisée... Mais\n\
 c'est un travail honnête.\n\
 Grâce aux étoiles offertes\n\
 par le Présentateur, des\n\
 millions de gens sont\n\
-fournis en éléctricité !"))
+fournis en électricité !"))
 
 DEFINE_DIALOG(DIALOG_158, 1, 1, 95, 180, _("\
 Ville lumineux !\n\
@@ -1715,7 +1714,7 @@ dans leurs chaises. Bref !\n\
 Bienvenue aux Studios.\n\
 On tourne un nouveau film\n\
 en direct, ou TU combats\n\
-le Roi des Koopas, plus\n\
+le Roi des Koopa, plus\n\
 puissant que jamais.\n\
 Un sacré projet, d'autant\n\
 plus que l'on a pas fait\n\
@@ -1760,7 +1759,7 @@ fier de toi, mon p'tit.\n\
 T'iras loin. Loin comment ?\n\
 Comme la porte à 10 étoiles,\n\
 par exemple. Le Roi des\n\
-Koopas et toi devez vous\n\
+Koopa et toi devez vous\n\
 affronter pour que le film\n\
 puisse se conclure de\n\
 manière épique !\n\
@@ -1868,7 +1867,7 @@ Je te pardonne ! Peu importe\n\
 que tu aies détruit le corps\n\
 du Directeur, ça arrive à\n\
 tout le monde, pas grave !\n\
-Dis moi, pourquoi ne pas\n\
+Dis-moi, pourquoi ne pas\n\
 faire un tour à Indigopolis,\n\
 sous les Tours Thwomp, pour\n\
 en discuter ? Face à face,\n\
@@ -1893,7 +1892,7 @@ rater l'avant-première.\n\
 Pendant que tu y es, balade-\n\
 toi dans Festella, c'est\n\
 la prunelle de mes yeux.\n\
-Quand tu sera prêt, notre\n\
+Quand tu seras prêt, notre\n\
 petite guéguerre atteindra\n\
 enfin son apogée !"))
 
@@ -2063,7 +2062,7 @@ l'organisme macroviral\n\
 Agamemnon.\n\
 @00FF00FFIl a communiqué avec nos\n\
 sages. Il utilise notre\n\
-techonolgie avancée.\n\
+technologie avancée.\n\
 Dans l'éventualité de notre\n\
 absence, entretenez la\n\
 structure."))
@@ -2132,7 +2131,7 @@ cosmiques."))
 
 DEFINE_DIALOG(DIALOG_ENTRY_7, 1, 4, 95, 180, _("\
 @00FF00FFVII: Agamemnon peut\n\
-former une connection\n\
+former une connexion\n\
 nerveuse avec un\n\
 appareil.\n\
 @00FF00FFTous les appareils\n\
@@ -2143,7 +2142,7 @@ nerveuses de la croûte."))
 DEFINE_DIALOG(DIALOG_ENTRY_8, 1, 5, 95, 180, _("\
 @00FF00FFVIII: Les Graines Cosmiques\n\
 peuvent former une\n\
-connection nerveuse avec\n\
+connexion nerveuse avec\n\
 un appareil.\n\
 \n\
 @00FF00FFElles ont rapidement\n\
@@ -2223,7 +2222,7 @@ DEFINE_DIALOG(DIALOG_ENTRY_14, 1, 7, 95, 180, _("\
 @00FF00FFXIV: L'attention est\n\
 transmise des Avatars à\n\
 Agamemnon. Tant qu'une\n\
-connection transmissive\n\
+connexion transmissive\n\
 est établie, l'Avatar peut\n\
 contribuer à l'attraction\n\
 d'attention des sujets.\n\
@@ -2242,7 +2241,7 @@ ou de la mise en danger de\n\
 l'Avatar et du Prophète\n\
 simultanément, des entités\n\
 de PALAMEDES doivent être\n\
-deployées."))
+déployées."))
 
 DEFINE_DIALOG(DIALOG_ENTRY_16, 1, 5, 95, 180, _("\
 @00FF00FFXVI: Bla bla bla.\n\
@@ -2281,7 +2280,7 @@ un petit cadeau de la\n\
 maison pour te donner un\n\
 coup de main.\n\
 Par contre, si jamais\n\
-j'allais là bas-dedans\n\
+j'allais là-bas dedans\n\
 pour coller ça au noyau,\n\
 ce serait littéralement\n\
 une mission suicide.\n\
@@ -2507,7 +2506,7 @@ ET JE VOUS MAUDIS ÉTERNELLEMENT"))
 DEFINE_DIALOG(DIALOG_BOWSER12, 1, 6, 95, 180, _("\
 Eeeet... COUPEZ ! Ah, bien content que ce soit réglé.\n\
 Une vraie épine dans le pied, ce type. Quel combat\n\
-impressionnant, tu as presque toutes mes félictations."))
+impressionnant, tu as presque toutes mes félicitations."))
 
 DEFINE_DIALOG(DIALOG_BOWSER13, 1, 6, 95, 180, _("\
 N'es-tu pas ravi ? Tu seras une star !  Pas une micro-\n\
@@ -2541,7 +2540,7 @@ tête si sérieuse, c'est pas la première fois, pourtant."))
 DEFINE_DIALOG(DIALOG_BOWSER19, 1, 6, 95, 180, _("\
 Ah oui, j'ai failli oublier. Voilà l'étoile du château,\n\
 puisque tu les aimes tant. Disons que c'est ton salaire.\n\
-Dans tout les cas, on se revoit dans le Virtuaplex !"))
+Dans tous les cas, on se revoit dans le Virtuaplex !"))
 
 DEFINE_DIALOG(DIALOG_BOWSER_INTRO_1, 1, 6, 95, 180, _("\
 Mario ! Espèce d'idiot, qu'est-ce que tu fais là ?\n\
@@ -2549,7 +2548,7 @@ L'ange t'a capturé aussi ? Vite, donne-moi tes étoiles,\n\
 je peux encore nous sortir de là..."))
 
 DEFINE_DIALOG(DIALOG_BOWSER_INTRO_2, 1, 6, 95, 180, _("\
-...Non, c'est l'occasion rêvée. Peut être que ce n'est\n\
+...Non, c'est l'occasion rêvée. Peut-être que ce n'est\n\
 pas si mal, au final. Bwa ha ha ! Je suis plus fort que\n\
 jamais, grâce à la puissance de cette étoile bizarre !"))
 
@@ -2736,7 +2735,7 @@ chose pareille, personne sauf toi, Mario !"))
 
 DEFINE_DIALOG(DIALOG_QUIZ_21_B, 1, 6, 95, 180, _("\
 Ça me rend malade. Je ne souhaiterais pas\n\
-cette vie sans monarche même à mon pire ennemi."))
+cette vie sans monarque même à mon pire ennemi."))
 
 //showrunner
 DEFINE_DIALOG(DIALOG_QUIZ_22, 1, 6, 95, 180, _("\
@@ -2750,7 +2749,7 @@ Darius ??? Je me FICHE de Darius ! Tout le monde se\n\
 fiche de Darius !!"))
 
 DEFINE_DIALOG(DIALOG_QUIZ_24, 1, 6, 95, 180, _("\
-Qu'est ce qu'il a de plus que moi, hein ??\n\
+Qu'est-ce qu'il a de plus que moi, hein ??\n\
 C'est un bon à rien, il ne mérite rien, je ne veux\n\
 pas entendre parler de lui parce que je le HAIS !"))
 
@@ -2879,7 +2878,7 @@ chaos que tu laisses derrière toi. Tu n'as même pas\n\
 besoin de penser à tout ça."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_49, 1, 6, 95, 180, _("\
-Malgré tout, c'est moi qui ai gagné. Tu n'a pas pu\n\
+Malgré tout, c'est moi qui ai gagné. Tu n'as pas pu\n\
 détruire mon esprit, parce que tu n'en a pas toi-même.\n\
 Tu mourras pour rien, parce que tu ne crois en rien."))
 
@@ -2909,7 +2908,7 @@ c'est simplement pour retrouver ta liberté...?"))
 
 DEFINE_DIALOG(DIALOG_QUIZ_56_A, 1, 6, 95, 180, _("\
 Agamemnon et toi vous ressemblez plus qu'il n'y parait.\n\
-Le status quo est tellement important pour toi que tu\n\
+Le statu quo est tellement important pour toi que tu\n\
 te bats pour le préserver à tout prix."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_57_A, 1, 6, 95, 180, _("\
@@ -2934,13 +2933,13 @@ A) Un méchant.\n\
 B) Un rouage dans la machine."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_58_A, 1, 6, 95, 180, _("\
-Pourquoi est-ce que c'est toujous noir ou blanc pour toi ?\n\
+Pourquoi est-ce que c'est toujours noir ou blanc pour toi ?\n\
 Tu ne vois jamais de gris, peu importe les circonstances..."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_59_A, 1, 6, 95, 180, _("\
-Je suis déçu que tu n'arrives pas à saisir la moidre forme\n\
-de nuance... Peut-être que tu comprendras quand tu auras\n\
-une Graine Cosmique enfoncée dans le crâne. Peut-être."))
+Je suis déçu que tu n'arrives pas à saisir la moindre\n\
+forme de nuance... Peut-être que tu comprendras quand tu\n\
+auras une Graine Cosmique plantée dans le crâne. Peut-être."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_58_B, 1, 6, 95, 180, _("\
 Hmm. Mon but, c'est l'art. Le divertissement.\n\
@@ -2952,7 +2951,7 @@ Mais il semblerait que ce soit les ''moyens''\n\
 qui ont marqué les esprits. Ça ne me plaît pas."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_60_B, 1, 6, 95, 180, _("\
-Dans tout les cas, ça n'a pas d'importance.\n\
+Dans tous les cas, ça n'a pas d'importance.\n\
 On est pratiquement condamnés à être ennemis,\n\
 au point où on en est. Telle est la nature des choses."))
 
@@ -3013,7 +3012,7 @@ Fais un tour au cinéma quand tu seras prêt à mourir."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_64_B, 1, 6, 95, 180, _("\
 C'est la fin de mon petit interrogatoire.\n\
-Il semblerait que mon intuition était erronnée.\n\
+Il semblerait que mon intuition était erronée.\n\
 Tu as bel et bien des convictions."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_65_B, 1, 6, 95, 180, _("\
@@ -3050,7 +3049,7 @@ de bonheur ma pauvre âme corrompue."))
 DEFINE_DIALOG(DIALOG_SB_3, 1, 6, 95, 180, _("\
 Mario VS Urbowser marche du tonnerre, tout le monde en\n\
 parle ! Le Directeur aurait adoré, mais son avatar a\n\
-mystérieusement disparu. On va bientôt passer à la suite."))                                 //"no more delays then"?//
+mystérieusement disparu. Mais bon. Peu importe."))                                 //"no more delays then"?//
 
 DEFINE_DIALOG(DIALOG_SB_4, 1, 6, 95, 180, _("\
 La planète pourrait tenir encore quelques décennies avant\n\
@@ -3058,8 +3057,8 @@ d'être absorbée. Dommage que tu sois si opposé à l'idée\n\
 d'offrir une vie digne à ses habitants avec les Graines."))
 
 DEFINE_DIALOG(DIALOG_SB_5, 1, 6, 95, 180, _("\
-Tant pis. Je me suis fait à l'idée de notre inévitable\n\
-mortalité en acceptant ce poste.\n\
+Quand j'ai accepté le rôle de prophète, je me suis\n\
+fait à l'idée de notre inévitable mortalité.\n\
 Et toi ?"))
 
 DEFINE_DIALOG(DIALOG_SB_6, 1, 6, 95, 180, _("\
@@ -3085,7 +3084,7 @@ Bien joué, très bien joué."))
 
 DEFINE_DIALOG(DIALOG_SB_2B, 1, 6, 95, 180, _("\
 ...Alors, c'est comme ça que tout se termine ?\n\
-Mon histoire prend fin le jour ou sort la tienne ?\n\
+Mon histoire prend fin le jour où sort la tienne ?\n\
 Quelle ironie."))
 
 DEFINE_DIALOG(DIALOG_SB_3B, 1, 6, 95, 180, _("\
@@ -3112,7 +3111,7 @@ Et n'imagine même pas revenir sur Terre."))
 
 DEFINE_DIALOG(DIALOG_SB_8B, 1, 6, 95, 180, _("\
 ...Bon, j'aurai bien rigolé. Être une star, c'est\n\
-fatigant. Ma vie sera plus calme au firmament.\n\
+enivrant... mais je m'amuserai encore plus au firmament.\n\
 ...On se retrouvera là-bas."))
 
 DEFINE_DIALOG(DIALOG_CREDITS_1, 1, 6, 95, 180, _("\
@@ -3148,7 +3147,7 @@ Création de la Reine Thwomp"))
 
 DEFINE_DIALOG(DIALOG_CREDITS_8, 1, 6, 95, 180, _("\
 - Someone2639 -\n\
-Patch ''Shiftable Segments''"))
+Patch Shiftable Segments"))
 
 DEFINE_DIALOG(DIALOG_CREDITS_9, 1, 6, 95, 180, _("\
 - CrashOverride -\n\
@@ -3474,7 +3473,7 @@ Je vais rayer ton nom du casting !"))
 
 
 DEFINE_DIALOG(DIALOG_EXEC_1_C, 1, 1, 0, 0, _("\
-Quoi ...? Qu'est-ce que...?"))
+Quoi...? Qu'est-ce que...?"))
 
 //<skip>
 
@@ -3529,7 +3528,7 @@ Maintiens [B] pour te propulser, mais \n\
 garde un oeil ta jauge d'essence !"))
 
 DEFINE_DIALOG(DIALOG_SWITCH_2, 1, 5, 95, 180, _("\
-Tu peux désormer trouver des graines cosmiques\n\
+Tu peux désormais trouver des graines cosmiques\n\
 dans les boîtes noires. Sois prêt à affronter\n\
 les horreurs qui les gardent."))
 
@@ -3547,10 +3546,10 @@ Tu cherches un costume ?\n\
 Voici une énigme qui\n\
 devrait te mettre sur\n\
 la bonne voie :\n\
-In the land with the\n\
-rolling hills of fire:\n\
-Lies a classic yet\n\
-still in-style attire."))
+Les chutes de lave abritent\n\
+Sur une île de granit\n\
+Un costume des temps anciens\n\
+Qui te va toujours très bien."))
 
 DEFINE_DIALOG(DIALOG_COSTUME_HINT2, 1, 4, 95, 180, _("\
 Tu cherches un costume ?\n\
@@ -3558,9 +3557,9 @@ Voici une énigme qui\n\
 devrait te mettre sur\n\
 la bonne voie :\n\
 Dans les grottes d'azur\n\
-en haut d'un batiment\n\
-se trouve la parure\n\
-d'un type un peu dément."))
+En haut d'un bâtiment\n\
+Se trouve la parure\n\
+D'un type un peu dément."))
 
 DEFINE_DIALOG(DIALOG_COSTUME_HINT3, 1, 4, 95, 180, _("\
 Tu cherches un costume ?\n\
@@ -3568,9 +3567,9 @@ Voici une énigme qui\n\
 devrait te mettre sur\n\
 la bonne voie :\n\
 Comment est-il possible\n\
-de rater celui-ci ?\n\
+De rater celui-ci ?\n\
 Un frère vert se cache\n\
-dans une pièce près d'ici..."))
+Dans une pièce près d'ici..."))
 
 DEFINE_DIALOG(DIALOG_COSTUME_HINT4, 1, 4, 95, 180, _("\
 Tu cherches un costume ?\n\
@@ -3578,7 +3577,7 @@ Voici une énigme qui\n\
 devrait te mettre sur\n\
 la bonne voie :\n\
 C'est un Mario à l'envers,\n\
-il est avare et grincheux;\n\
+Il est avare et grincheux;\n\
 Dans un réservoir en fer\n\
 Emprunte le chemin 2."))
 
@@ -3597,10 +3596,10 @@ Tu cherches un costume ?\n\
 Voici une énigme qui\n\
 devrait te mettre sur\n\
 la bonne voie :\n\
-Le marin à disparu,\n\
-mais son esprit reste là:\n\
-à l'intérieur du navire,\n\
-en-dessous et au-delà."))
+Le marin a disparu,\n\
+Mais son esprit reste là:\n\
+À l'intérieur du navire,\n\
+En-dessous et au-delà."))
 
 DEFINE_DIALOG(DIALOG_COSTUME_HINT7, 1, 4, 95, 180, _("\
 Tu cherches un costume ?\n\
@@ -3617,40 +3616,40 @@ Tu cherches un costume ?\n\
 Voici une énigme qui\n\
 devrait te mettre sur\n\
 la bonne voie :\n\
-Son nom n'est pas anodin,\n\
-c'est celui d'un roi qu'il porte ;\n\
-Et pourtant, tous les matins,\n\
-c'est le courrier qu'il apporte."))
+Dans les plaines sans pesanteur\n\
+Où l'on jette la semence,\n\
+Le costume du facteur\n\
+Est plus proche que tu ne penses."))
 
 DEFINE_DIALOG(DIALOG_COSTUME_HINT9, 1, 4, 95, 180, _("\
 Tu cherches un costume ?\n\
 Voici une énigme qui\n\
 devrait te mettre sur\n\
 la bonne voie :\n\
-In the residence of a\n\
-giant, down the drain:\n\
-The location of this\n\
-costume does proclaim."))
+La demeure des humains\n\
+Cache un souvenir du passé;\n\
+Là où se lavent les mains\n\
+Une étoile s'est noyée."))
 
 DEFINE_DIALOG(DIALOG_COSTUME_HINT10, 1, 4, 95, 180, _("\
 Tu cherches un costume ?\n\
 Voici une énigme qui\n\
 devrait te mettre sur\n\
 la bonne voie :\n\
-Là où le monde est\n\
-the place of atoms:\n\
-One must know the\n\
-secret of the platinums."))
+À l'endroit où les pixels\n\
+Sont l'exclusive unité,\n\
+Il faut connaître les ficelles\n\
+Du monde qui l'a inspiré."))
 
 DEFINE_DIALOG(DIALOG_COSTUME_HINT11, 1, 4, 95, 180, _("\
 Tu cherches un costume ?\n\
 Voici une énigme qui\n\
 devrait te mettre sur\n\
 la bonne voie :\n\
-Au-dessus des nuages,\n\
-dans le royaume de roc,\n\
-The X indeed marks it\n\
-alone."))
+Loin au-dessus des nuages,\n\
+Dans le territoire du roi,\n\
+L'emplacement d'un secret\n\
+Est marqué par une croix."))
 
 DEFINE_DIALOG(DIALOG_COSTUME_HINT12, 1, 4, 95, 180, _("\
 Tu cherches un costume ?\n\
@@ -3679,8 +3678,8 @@ devrait te mettre sur\n\
 la bonne voie :\n\
 Un reflet empoisonné\n\
 De l'image de Mario;\n\
-Cet endroit désordonné\n\
-Fait partie du scénario."))
+Dans cet endroit désordonné\n\
+Se déroule le scénario."))
 
 DEFINE_DIALOG(DIALOG_COSTUME_END, 1, 2, 95, 180, _("\
 Tu as tout trouvé !\n\

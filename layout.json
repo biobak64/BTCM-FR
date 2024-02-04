@@ -10,11 +10,11 @@
 	},
 	"groups": [
 		{
-			"name": "Main Courses",
+			"name": "Mondes principaux",
 			"side": "top",
 			"courses": [
 				{
-					"name": "C1:",
+					"name": "M1 :",
 					"data": [
 						{
 							"offset": 20,
@@ -23,7 +23,7 @@
 					]
 				},
 				{
-					"name": "C2:",
+					"name": "M2 :",
 					"data": [
 						{
 							"offset": 21,
@@ -32,7 +32,7 @@
 					]
 				},
 				{
-					"name": "C3:",
+					"name": "M3 :",
 					"data": [
 						{
 							"offset": 22,
@@ -41,7 +41,7 @@
 					]
 				},
 				{
-					"name": "C4:",
+					"name": "M4 :",
 					"data": [
 						{
 							"offset": 23,
@@ -50,7 +50,7 @@
 					]
 				},
 				{
-					"name": "C5:",
+					"name": "M5 :",
 					"data": [
 						{
 							"offset": 24,
@@ -59,7 +59,7 @@
 					]
 				},
 				{
-					"name": "C6:",
+					"name": "M6 :",
 					"data": [
 						{
 							"offset": 25,
@@ -68,7 +68,7 @@
 					]
 				},
 				{
-					"name": "C7:",
+					"name": "M7 :",
 					"data": [
 						{
 							"offset": 26,
@@ -77,7 +77,7 @@
 					]
 				},
 				{
-					"name": "C8:",
+					"name": "M8 :",
 					"data": [
 						{
 							"offset": 27,
@@ -86,7 +86,7 @@
 					]
 				},
 				{
-					"name": "C9:",
+					"name": "M9 :",
 					"data": [
 						{
 							"offset": 28,
@@ -95,7 +95,7 @@
 					]
 				},
 				{
-					"name": "C10:",
+					"name": "M10 :",
 					"data": [
 						{
 							"offset": 29,
@@ -104,7 +104,7 @@
 					]
 				},
 				{
-					"name": "C11:",
+					"name": "M11 :",
 					"data": [
 						{
 							"offset": 30,
@@ -113,7 +113,7 @@
 					]
 				},
 				{
-					"name": "C12:",
+					"name": "M2 :",
 					"data": [
 						{
 							"offset": 31,
@@ -122,7 +122,7 @@
 					]
 				},
 				{
-					"name": "C13:",
+					"name": "M13 :",
 					"data": [
 						{
 							"offset": 32,
@@ -131,7 +131,7 @@
 					]
 				},
 				{
-					"name": "C14:",
+					"name": "M14 :",
 					"data": [
 						{
 							"offset": 33,
@@ -140,7 +140,7 @@
 					]
 				},
 				{
-					"name": "C15:",
+					"name": "M15 :",
 					"data": [
 						{
 							"offset": 34,
@@ -151,11 +151,11 @@
 			]
 		},
 		{
-			"name": "Boss Courses",
+			"name": "Mondes de boss",
 			"side": "top",
 			"courses": [
 				{
-					"name": "Boss Course 1:",
+					"name": "Boss 1 :",
 					"data": [
 						{
 							"offset": 35,
@@ -164,7 +164,7 @@
 					]
 				},
 				{
-					"name": "Boss Course 2:",
+					"name": "Boss 2 :",
 					"data": [
 						{
 							"offset": 36,
@@ -175,11 +175,11 @@
 			]
 		},
 		{
-			"name": "Secret Courses",
+			"name": "Mondes secrets",
 			"side": "top",
 			"courses": [
 				{
-					"name": "Minigames:",
+					"name": "Mini-jeux:",
 					"data": [
 						{
 							"offset": 16,
@@ -188,7 +188,7 @@
 					]
 				},
 				{
-					"name": "Cap 1:",
+					"name": "Interrupteur 1 :",
 					"data": [
 						{
 							"offset": 38,
@@ -197,7 +197,7 @@
 					]
 				},
 				{
-					"name": "Cap 2:",
+					"name": "Interrupteur 2 :",
 					"data": [
 						{
 							"offset": 42,

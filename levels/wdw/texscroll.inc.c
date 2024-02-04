@@ -67,10 +67,10 @@ void scroll_wdw_dl_vis_mesh_layer_1_vtx_0() {
 	currentX += deltaX;	currentY += deltaY;
 }
 
-void scroll_sts_mat_wdw_dl_Sign11() {
+void scroll_sts_mat_wdw_dl_Sign11_002() {
 	static int intervalTex0 = 3;
 	static int curInterval0 = 3;
-	Gfx *mat = segmented_to_virtual(mat_wdw_dl_Sign11);
+	Gfx *mat = segmented_to_virtual(mat_wdw_dl_Sign11_002);
 
 	if (--curInterval0 <= 0) {
 		shift_s(mat, 18, PACK_TILESIZE(0, 128));
@@ -78,10 +78,10 @@ void scroll_sts_mat_wdw_dl_Sign11() {
 	}
 };
 
-void scroll_sts_mat_wdw_dl_Lights() {
+void scroll_sts_mat_wdw_dl_Lights_002() {
 	static int intervalTex0 = 3;
 	static int curInterval0 = 3;
-	Gfx *mat = segmented_to_virtual(mat_wdw_dl_Lights);
+	Gfx *mat = segmented_to_virtual(mat_wdw_dl_Lights_002);
 
 	if (--curInterval0 <= 0) {
 		shift_s(mat, 11, PACK_TILESIZE(0, 128));
@@ -89,10 +89,10 @@ void scroll_sts_mat_wdw_dl_Lights() {
 	}
 };
 
-void scroll_sts_mat_wdw_dl_Sign9() {
+void scroll_sts_mat_wdw_dl_Sign9_002() {
 	static int intervalTex0 = 3;
 	static int curInterval0 = 3;
-	Gfx *mat = segmented_to_virtual(mat_wdw_dl_Sign9);
+	Gfx *mat = segmented_to_virtual(mat_wdw_dl_Sign9_002);
 
 	if (--curInterval0 <= 0) {
 		shift_s(mat, 18, PACK_TILESIZE(0, 256));
@@ -100,10 +100,10 @@ void scroll_sts_mat_wdw_dl_Sign9() {
 	}
 };
 
-void scroll_sts_mat_wdw_dl_Sign10() {
+void scroll_sts_mat_wdw_dl_Sign10_001() {
 	static int intervalTex0 = 5;
 	static int curInterval0 = 5;
-	Gfx *mat = segmented_to_virtual(mat_wdw_dl_Sign10);
+	Gfx *mat = segmented_to_virtual(mat_wdw_dl_Sign10_001);
 
 	if (--curInterval0 <= 0) {
 		shift_s(mat, 18, PACK_TILESIZE(0, 128));
@@ -181,10 +181,10 @@ void scroll_wdw() {
 	scroll_wdw_dl_vis_mesh_layer_5_vtx_0();
 	scroll_sts_mat_wdw_dl_Blinkers();
 	scroll_wdw_dl_vis_mesh_layer_1_vtx_0();
-	scroll_sts_mat_wdw_dl_Sign11();
-	scroll_sts_mat_wdw_dl_Lights();
-	scroll_sts_mat_wdw_dl_Sign9();
-	scroll_sts_mat_wdw_dl_Sign10();
+	scroll_sts_mat_wdw_dl_Sign11_002();
+	scroll_sts_mat_wdw_dl_Lights_002();
+	scroll_sts_mat_wdw_dl_Sign9_002();
+	scroll_sts_mat_wdw_dl_Sign10_001();
 	scroll_wdw_dl_Cube_010_mesh_layer_1_vtx_7();
 	scroll_wdw_dl_Cube_010_mesh_layer_1_vtx_8();
 	scroll_wdw_dl_Cube_010_mesh_layer_1_vtx_9();
