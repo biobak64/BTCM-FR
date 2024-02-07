@@ -1148,6 +1148,8 @@ s32 event_credits[] = {
     E_WAIT, 150,
     E_DIALOG, DIALOG_CREDITS_6,
     E_WAIT, 150,
+    E_DIALOG, DIALOG_CREDITS_25, //drah+indigo
+    E_WAIT, 150,
     E_DIALOG, DIALOG_CREDITS_7,
     E_WAIT, 150,
     E_DIALOG, DIALOG_CREDITS_8,

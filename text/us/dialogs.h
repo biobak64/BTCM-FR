@@ -356,9 +356,9 @@ Salle de recherche\n\
 préhistorique"))
 
 DEFINE_DIALOG(DIALOG_036, 1, 4, 95, 180, _("\
-Les voyous cherchent\n\
-toujours à te mettre\n\
-des coups d'boule.\n\
+Les autres voyous, tout\n\
+ce qu'ils veulent, c'est\n\
+te mettre des coups d'boule.\n\
 Bah pas moi.\n\
 Moi, j'suis là pour\n\
 me remplir les poches,\n\
@@ -3224,9 +3224,9 @@ Phase 1 - CowQuack, Fazana, GTM, ShiN3, Dan GPTV\n\
 Phase 2 - Spk, ArcticJaguar725"))
 
 DEFINE_DIALOG(DIALOG_CREDITS_25, 1, 6, 95, 180, _("\
-Remerciements spéciaux :\n\
-YHWH, Ma famille, Mes 3 frères\n\
-Chillyn', RationaLess, SimpleFlips"))
+- Drahnokks, Indigo Dindigo -\n\
+Importation des lettres accentuées\n\
+Remplacement de certaines textures"))
 //This special thanks screen sucks. I'm going to be removing it
 //until I have something more meaningful and not shoehorned in
 //it also needs to be more tasteful

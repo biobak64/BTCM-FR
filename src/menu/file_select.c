@@ -1735,7 +1735,7 @@ void new_file_select() {
 
     if (fs_ms > 0) {
         cursor_y = 145-(fsi*60);
-        cursor_x = 100.0f+(fshi*60.0f);
+        cursor_x = 96.0f+(fshi*77.0f);
     }
 
     for (i=0;i<3;i++) {
