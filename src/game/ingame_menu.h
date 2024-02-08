@@ -88,12 +88,16 @@ enum DialogMark {
 // definitions for some of the special characters defined in charmap.txt
 enum DialogSpecialChars {
 #ifdef VERSION_EU
+    DIALOG_CHAR_I_NO_DIA             = 0xEB, // 'i' without diacritic
+    DIALOG_CHAR_DOUBLE_LOW_QUOTE     = 0xF0, // German opening quotation mark
+#endif
     DIALOG_CHAR_LOWER_A_GRAVE        = 0x60, // 'a' grave
     DIALOG_CHAR_LOWER_A_CIRCUMFLEX   = 0x61, // 'a' circumflex
     DIALOG_CHAR_LOWER_A_UMLAUT       = 0x62, // 'a' umlaut
     DIALOG_CHAR_UPPER_A_GRAVE        = 0x64, // 'A' grave
     DIALOG_CHAR_UPPER_A_CIRCUMFLEX   = 0x65, // 'A' circumflex
     DIALOG_CHAR_UPPER_A_UMLAUT       = 0x66, // 'A' umlaut
+    DIALOG_CHAR_UPPER_A_ACUTE        = 0x67, // 'A' acute
     DIALOG_CHAR_LOWER_E_GRAVE        = 0x70, // 'e' grave
     DIALOG_CHAR_LOWER_E_CIRCUMFLEX   = 0x71, // 'e' circumflex
     DIALOG_CHAR_LOWER_E_UMLAUT       = 0x72, // 'e' umlaut
@@ -112,11 +116,14 @@ enum DialogSpecialChars {
     DIALOG_CHAR_LOWER_O_UMLAUT       = 0x92, // 'o' umlaut
     DIALOG_CHAR_UPPER_O_CIRCUMFLEX   = 0x95, // 'O' circumflex
     DIALOG_CHAR_UPPER_O_UMLAUT       = 0x96, // 'O' umlaut
+    DIALOG_CHAR_LOWER_I_GRAVE        = 0xA0, // 'i' grave
     DIALOG_CHAR_LOWER_I_CIRCUMFLEX   = 0xA1, // 'i' circumflex
     DIALOG_CHAR_LOWER_I_UMLAUT       = 0xA2, // 'i' umlaut
-    DIALOG_CHAR_I_NO_DIA             = 0xEB, // 'i' without diacritic
-    DIALOG_CHAR_DOUBLE_LOW_QUOTE     = 0xF0, // German opening quotation mark
-#endif
+    DIALOG_CHAR_LOWER_I_ACUTE        = 0xA3, // 'i' acute
+    DIALOG_CHAR_UPPER_I_GRAVE        = 0xA4, // 'I' grave
+    DIALOG_CHAR_UPPER_I_CIRCUMFLEX   = 0xA5, // 'I' circumflex
+    DIALOG_CHAR_UPPER_I_UMLAUT       = 0xA6, // 'I' umlaut
+    DIALOG_CHAR_UPPER_I_ACUTE        = 0xA7, // 'I' acute
     DIALOG_CHAR_SLASH                = 0xD0,
     DIALOG_CHAR_MULTI_THE            = 0xD1, // 'the'
     DIALOG_CHAR_MULTI_YOU            = 0xD2, // 'you'

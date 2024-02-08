@@ -1455,30 +1455,6 @@ ALIGNED8 static const Texture texture_menu_font_char_Z[] = {
 #include "levels/menu/main_menu_seg7_us.0B500.ia8.inc.c"
 };
 
-//Drahnokks' add START - handle some french accent
-
-ALIGNED8 static const Texture texture_menu_font_char_a_grave_maj[] = {
-#include "levels/menu/a_grave_maj.ia8.inc.c"
-};
-
-ALIGNED8 static const Texture texture_menu_font_char_e_grave_maj[] = {
-#include "levels/menu/e_grave_maj.ia8.inc.c"
-};
-
-ALIGNED8 static const Texture texture_menu_font_char_e_aigue_maj[] = {
-#include "levels/menu/e_aigue_maj.ia8.inc.c"
-};
-
-ALIGNED8 static const Texture texture_menu_font_char_u_circonflexe_maj[] = {
-#include "levels/menu/u_circonflexe_maj.ia8.inc.c"
-};
-
-ALIGNED8 static const Texture texture_menu_font_char_i_circonflexe_maj[] = {
-#include "levels/menu/i_circonflexe_maj.ia8.inc.c"
-};
-
-//Drahnokks' add END
-
 // 0x0700B540
 ALIGNED8 static const Texture texture_menu_font_char_coin[] = {
 #include "levels/menu/main_menu_seg7_us.0B540.ia8.inc.c"
@@ -1554,22 +1530,34 @@ ALIGNED8 static const Texture texture_menu_font_char_ampersand[] = {
 };
 #endif
 
-#ifdef VERSION_EU
+ALIGNED8 static const Texture texture_menu_font_char_grave[] = {
+#include "levels/menu/grave.ia8.inc.c"
+};
+
+ALIGNED8 static const Texture texture_menu_font_char_circonflexe[] = {
+#include "levels/menu/circonflexe.ia8.inc.c"
+};
+
 // 0x0700B840
 ALIGNED8 static const Texture texture_menu_font_char_umlaut[] = {
-#include "levels/menu/main_menu_seg7_eu.0B840.ia8.inc.c"
+#include "levels/menu/umlaut.ia8.inc.c"
+};
+
+ALIGNED8 static const Texture texture_menu_font_char_aigue[] = {
+#include "levels/menu/aigue.ia8.inc.c"
 };
 
 // 0x0700B880
 ALIGNED8 static const Texture texture_menu_font_char_cedilla_mayus[] = {
-#include "levels/menu/main_menu_seg7_eu.0B880.ia8.inc.c"
+#include "levels/menu/main_menu_seg7_us.0B780.ia8.inc.c"
+//#include "levels/menu/main_menu_seg7_eu.0B880.ia8.inc.c"
 };
 
 // 0x0700B8C0
 ALIGNED8 static const Texture texture_menu_font_char_colon[] = {
-#include "levels/menu/main_menu_seg7_eu.0B8C0.ia8.inc.c"
+#include "levels/menu/main_menu_seg7_us.0B780.ia8.inc.c"
+//#include "levels/menu/main_menu_seg7_eu.0B8C0.ia8.inc.c"
 };
-#endif
 
 // Menu small font print table
 // 0x0700CD08
@@ -1670,22 +1658,22 @@ const Texture *const menu_font_lut[] = {
           0x0,                          0x0,                        0x0,                    0x0, // 91
           0x0,                          0x0,                        0x0,                    0x0, // 95
           0x0,                          0x0,                        0x0,                    0x0, // 99
-    texture_menu_font_char_a_grave_maj,      0x0,                        0x0,                    0x0, // 103
+          0x0,                          0x0,                        0x0,                    0x0, // 103
           0x0,                          0x0,                        0x0,                    0x0, // 107
           0x0,                          0x0,                        0x0,        texture_menu_font_char_comma,       //111
           0x0,                          0x0,                        0x0,                    0x0,                    // 115
-    texture_menu_font_char_e_grave_maj, 0x0,                        0x0,        texture_menu_font_char_e_aigue_maj, // 119
+          0x0,                          0x0,                        0x0,                    0x0, // 119
           0x0,                          0x0,                        0x0,                    0x0, // 123
           0x0,                          0x0,                        0x0,                    0x0, // 127
           0x0,                          0x0,                        0x0,                    0x0, // 131
-          0x0,       texture_menu_font_char_u_circonflexe_maj,      0x0,                    0x0, // 135
+          0x0,                          0x0,                        0x0,                    0x0, // 135
           0x0,                          0x0,                        0x0,                    0x0, // 139
           0x0,                          0x0,                        0x0,                    0x0, // 143
           0x0,                          0x0,                        0x0,                    0x0, // 147
           0x0,                          0x0,                        0x0,                    0x0, // 151
           0x0,                          0x0,                        0x0,                    0x0, // 155
           0x0,                          0x0,                        0x0,        texture_menu_font_char_dash,        // 159
-          0x0,       texture_menu_font_char_i_circonflexe_maj,      0x0,                    0x0, // 163
+          0x0,       0x0,       0x0,       0x0, // 163
           0x0,       0x0,       0x0,       0x0,
           0x0,       0x0,       0x0,       0x0,
           0x0,       0x0,       0x0,       0x0,
@@ -1702,19 +1690,36 @@ const Texture *const menu_font_lut[] = {
           0x0,       0x0,       0x0,       0x0,
           0x0,       0x0,       0x0,       0x0,
           0x0,       0x0,       0x0,       0x0,
-#ifdef VERSION_EU
-          0x0, texture_menu_font_char_ampersand, texture_menu_font_char_colon,       0x0,
-          0x0, texture_menu_font_char_umlaut,       0x0,       0x0,
-          0x0, texture_menu_font_char_cedilla_mayus,       0x0,       0x0,
-#else
-          0x0, texture_menu_font_char_ampersand,       0x0,       0x0,
-          0x0,       0x0,       0x0,       0x0,
-          0x0,       0x0,       0x0,       0x0,
-#endif
-          0x0,       0x0, texture_menu_font_char_exclamation,       0x0,
-    texture_menu_font_char_question,       0x0,       0x0,       0x0,
-          0x0, texture_menu_font_char_coin, texture_menu_font_char_star_filled, texture_menu_font_char_multiply,
-          0x0,       0x0,       0x0,       0x0,
+//re-enabling accent for french
+          0x0, 
+    texture_menu_font_char_ampersand, 
+    texture_menu_font_char_colon,       
+    texture_menu_font_char_grave,
+    texture_menu_font_char_circonflexe,
+    texture_menu_font_char_umlaut,    
+    texture_menu_font_char_aigue,
+          0x0,
+          0x0, 
+    texture_menu_font_char_cedilla_mayus,       
+          0x0,       
+          0x0,
+//
+          0x0,       
+          0x0, 
+    texture_menu_font_char_exclamation,       
+          0x0,
+    texture_menu_font_char_question,       
+          0x0,       
+          0x0,       
+          0x0,
+          0x0, 
+    texture_menu_font_char_coin, 
+    texture_menu_font_char_star_filled, 
+    texture_menu_font_char_multiply,
+          0x0,       
+          0x0,       
+          0x0,       
+          0x0,
 #endif
 };
 
