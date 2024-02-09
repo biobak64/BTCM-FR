@@ -559,16 +559,6 @@ void render_multi_text_string(s8 multiTextID) {
 #define CHAR_WIDTH_SPACE (f32)(gDialogCharWidths[DIALOG_CHAR_SPACE])
 #define CHAR_WIDTH_DEFAULT (f32)(gDialogCharWidths[str[strPos]])
 
-void render_lowercase_diacritic(u8 c, u8 diacritic) {
-    render_generic_char(c);
-    render_generic_char(diacritic + 0xE7);
-}
-
-void render_uppercase_diacritic(u8 c, u8 diacritic) {
-    render_generic_char(c);
-    render_generic_char(diacritic + 0xE3);
-}
-
 /**
  * Prints a generic white string.
  * In JP/EU a IA1 texture is used but in US a IA4 texture is used.
@@ -625,10 +615,6 @@ void print_generic_string(s16 x, s16 y, const u8 *str) {
                     customColor = 0;
                 }
                 break;
-            /*case DIALOG_CHAR_UPPER_A_GRAVE:
-                render_uppercase_diacritic(ASCII_TO_DIALOG('A'), str[strPos] & 0xF);
-                create_dl_translation_matrix(MENU_MTX_NOPUSH, CHAR_WIDTH_DEFAULT, 0.0f, 0.0f);
-                break;*/
             case DIALOG_CHAR_DAKUTEN:
                 mark = DIALOG_MARK_DAKUTEN;
                 break;
