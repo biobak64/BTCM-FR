@@ -1870,8 +1870,8 @@ ALIGNED8 static const Texture texture_hud_char_arrow_down[] = {
 
 // Karyno-Drahnokks Special Character START
 
-ALIGNED8 static const Texture texture_font_char_e_aigue_maj[] = {
-#include "textures/segment2/e_aigue_maj.ia4.inc.c"
+ALIGNED8 static const Texture texture_font_char_us_i_dotless[] = {
+#include "textures/segment2/i_dotless.ia4.inc.c"
 };
 
 ALIGNED8 static const Texture texture_font_char_c_cedile_maj[] = {
@@ -1882,112 +1882,22 @@ ALIGNED8 static const Texture texture_font_char_c_cedile_min[] = {
 #include "textures/segment2/c_cedile_min.ia4.inc.c"
 };
 
-ALIGNED8 static const Texture texture_font_char_i_circonflexe_min[] = {
-#include "textures/segment2/i_circonflexe_min.ia4.inc.c"
+// accent
+
+ALIGNED8 static const Texture texture_font_char_grave[] = {
+#include "textures/segment2/grave.ia4.inc.c"
 };
 
-ALIGNED8 static const Texture texture_font_char_i_circonflexe_maj[] = {
-#include "textures/segment2/i_circonflexe_maj.ia4.inc.c"
+ALIGNED8 static const Texture texture_font_char_circonflexe[] = {
+#include "textures/segment2/circonflexe.ia4.inc.c"
 };
 
-ALIGNED8 static const Texture texture_font_char_i_umlaut_min[] = {
-#include "textures/segment2/i_umlaut_min.ia4.inc.c"
+ALIGNED8 static const Texture texture_font_char_umlaut[] = {
+#include "textures/segment2/umlaut.ia4.inc.c"
 };
 
-ALIGNED8 static const Texture texture_font_char_u_circonflexe_min[] = {
-#include "textures/segment2/u_circonflexe_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_u_circonflexe_maj[] = {
-#include "textures/segment2/u_circonflexe_maj.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_u_grave_min[] = {
-#include "textures/segment2/u_grave_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_u_grave_maj[] = {
-#include "textures/segment2/u_grave_maj.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_u_aigue_maj[] = {
-#include "textures/segment2/u_aigue_maj.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_u_umlaut_min[] = {
-#include "textures/segment2/u_umlaut_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_u_umlaut_maj[] = {
-#include "textures/segment2/u_umlaut_maj.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_e_umlaut_min[] = {
-#include "textures/segment2/e_umlaut_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_e_umlaut_maj[] = {
-#include "textures/segment2/e_umlaut_maj.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_e_circonflexe_min[] = {
-#include "textures/segment2/e_circonflexe_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_e_circonflexe_maj[] = {
-#include "textures/segment2/e_circonflexe_maj.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_e_grave_min[] = {
-#include "textures/segment2/e_grave_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_e_grave_maj[] = {
-#include "textures/segment2/e_grave_maj.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_e_aigue_min[] = {
-#include "textures/segment2/e_aigue_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_a_circonflexe_min[] = {
-#include "textures/segment2/a_circonflexe_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_a_circonflexe_maj[] = {
-#include "textures/segment2/a_circonflexe_maj.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_a_grave_min[] = {
-#include "textures/segment2/a_grave_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_a_grave_maj[] = {
-#include "textures/segment2/a_grave_maj.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_a_umlaut_min[] = {
-#include "textures/segment2/a_umlaut_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_a_umlaut_maj[] = {
-#include "textures/segment2/a_umlaut_maj.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_o_circonflexe_min[] = {
-#include "textures/segment2/o_circonflexe_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_o_circonflexe_maj[] = {
-#include "textures/segment2/o_circonflexe_maj.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_o_umlaut_min[] = {
-#include "textures/segment2/o_umlaut_min.ia4.inc.c"
-};
-
-ALIGNED8 static const Texture texture_font_char_o_umlaut_maj[] = {
-#include "textures/segment2/o_umlaut_maj.ia4.inc.c"
+ALIGNED8 static const Texture texture_font_char_aigue[] = {
+#include "textures/segment2/aigue.ia4.inc.c"
 };
 
 //Drahnokks edit START
@@ -2039,8 +1949,8 @@ ALIGNED8 static const Texture texture_font_char_us_semicolon[] = {
 #include "textures/segment2/semicolon.ia4.inc.c"
 };
 
-ALIGNED8 static const Texture texture_font_char_us_circonflexe[] = {
-#include "textures/segment2/circonflexe.ia4.inc.c"
+ALIGNED8 static const Texture texture_font_char_us_circonflexe_solo[] = {
+#include "textures/segment2/circonflexe_solo.ia4.inc.c"
 };
 
 //----------------------------------------EDITED HUD TABLE-----------------------------//
@@ -2099,68 +2009,72 @@ const Texture *const main_font_lut[] = {
     texture_font_char_us_button_R,   
     texture_font_char_us_button_L,   
     texture_font_char_us_semicolon,  
-    texture_font_char_us_circonflexe,
+    texture_font_char_us_circonflexe_solo,
                   0x0,               0x0,               0x0,               0x0,
     // à â ä á À Â Ä Á
-    texture_font_char_a_grave_min, 
-    texture_font_char_a_circonflexe_min,
-    texture_font_char_a_umlaut_min,
+    0x0, 
     0x0,
-    texture_font_char_a_grave_maj,
-    texture_font_char_a_circonflexe_maj,
-    texture_font_char_a_umlaut_maj,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
     0x0,               
     // ??
                   0x0,              0x0,               0x0,                0x0,
                   0x0,              0x0,               0x0,    texture_font_char_us_comma,
     // è ê ë é È Ê Ë É
-    texture_font_char_e_grave_min,
-    texture_font_char_e_circonflexe_min,
-    texture_font_char_e_umlaut_min,
-    texture_font_char_e_aigue_min,
-    texture_font_char_e_grave_maj,
-    texture_font_char_e_circonflexe_maj,
-    texture_font_char_e_umlaut_maj,
-    texture_font_char_e_aigue_maj,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
     // ???
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
     // ù û ü ú Ù Û Ü Ú
-    texture_font_char_u_grave_min,
-    texture_font_char_u_circonflexe_min,
-    texture_font_char_u_umlaut_min,
     0x0,
-    texture_font_char_u_grave_maj,
-    texture_font_char_u_circonflexe_maj,
-    texture_font_char_u_umlaut_maj,
-    texture_font_char_u_aigue_maj,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
     //???
     0x0,               0x0,               0x0,               0x0,
     0x0,               0x0,               0x0,               0x0, 
     // ò ô ö ó Ò Ô Ô Ó
     0x0,
-    texture_font_char_o_circonflexe_min,
-    texture_font_char_o_umlaut_min,
     0x0,
     0x0,
-    texture_font_char_o_circonflexe_maj,               
-    texture_font_char_o_umlaut_maj,
+    0x0,
+    0x0,
+    0x0,               
+    0x0,
     0x0,
     //??
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0, texture_font_char_us_dash,
     // ì î ï ? Ì Î Ï ?
     0x0, 
-    texture_font_char_i_circonflexe_min,
-    texture_font_char_i_umlaut_min,
     0x0,
     0x0,
-    texture_font_char_i_circonflexe_maj,
     0x0,
     0x0,
-    // ??
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
+    0x0,
+    0x0,
+    0x0,
+    // accent grave circumflexe umlaut aigue //0xA8
+    texture_font_char_grave,    
+    texture_font_char_circonflexe,               
+    texture_font_char_umlaut,               
+    texture_font_char_aigue,
+    // ?? - maybe more accent
+    texture_font_char_us_i_dotless,  0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,

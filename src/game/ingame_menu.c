@@ -559,6 +559,89 @@ void render_multi_text_string(s8 multiTextID) {
 #define CHAR_WIDTH_SPACE (f32)(gDialogCharWidths[DIALOG_CHAR_SPACE])
 #define CHAR_WIDTH_DEFAULT (f32)(gDialogCharWidths[str[strPos]])
 
+void render_lowercase_diacritic(u8 c, u8 diacritic) {
+    render_generic_char(c);
+    render_generic_char(diacritic + 0xA8);
+}
+
+void render_uppercase_diacritic(u8 c, u8 diacritic) {
+    render_generic_char(c);
+    //offset up to print the accent above the lower case letter
+    create_dl_translation_matrix(MENU_MTX_NOPUSH, 0.0, 4.2f, 0.0f);
+    render_generic_char(diacritic + 0xA4);
+    //cancel offset for the rest of the string
+    create_dl_translation_matrix(MENU_MTX_NOPUSH, 0.0f, -4.2f, 0.0f);
+}
+
+//Drahnokk's add for accent
+void render_generic_or_accent_char(u8 c) {
+    switch(c) {
+        case DIALOG_CHAR_LOWER_A_GRAVE:
+        case DIALOG_CHAR_LOWER_A_CIRCUMFLEX:
+        case DIALOG_CHAR_LOWER_A_UMLAUT:
+        case DIALOG_CHAR_LOWER_A_ACUTE:
+            render_lowercase_diacritic(ASCII_TO_DIALOG('a'), c & 0xF);
+            break;
+        case DIALOG_CHAR_LOWER_E_GRAVE:
+        case DIALOG_CHAR_LOWER_E_CIRCUMFLEX:
+        case DIALOG_CHAR_LOWER_E_UMLAUT:
+        case DIALOG_CHAR_LOWER_E_ACUTE:
+            render_lowercase_diacritic(ASCII_TO_DIALOG('e'), c & 0xF);
+            break;
+        case DIALOG_CHAR_LOWER_I_GRAVE:
+        case DIALOG_CHAR_LOWER_I_CIRCUMFLEX:
+        case DIALOG_CHAR_LOWER_I_UMLAUT:
+        case DIALOG_CHAR_LOWER_I_ACUTE:
+            render_lowercase_diacritic(DIALOG_CHAR_LOWER_I_DOTLESS, c & 0xF);
+            break;
+        case DIALOG_CHAR_LOWER_O_GRAVE:
+        case DIALOG_CHAR_LOWER_O_CIRCUMFLEX:
+        case DIALOG_CHAR_LOWER_O_UMLAUT:
+        case DIALOG_CHAR_LOWER_O_ACUTE:
+            render_lowercase_diacritic(ASCII_TO_DIALOG('o'), c & 0xF);
+            break;
+        case DIALOG_CHAR_LOWER_U_GRAVE:
+        case DIALOG_CHAR_LOWER_U_CIRCUMFLEX:
+        case DIALOG_CHAR_LOWER_U_UMLAUT:
+        case DIALOG_CHAR_LOWER_U_ACUTE:
+            render_lowercase_diacritic(ASCII_TO_DIALOG('u'), c & 0xF);
+            break;
+        case DIALOG_CHAR_UPPER_A_GRAVE:
+        case DIALOG_CHAR_UPPER_A_CIRCUMFLEX:
+        case DIALOG_CHAR_UPPER_A_UMLAUT:
+        case DIALOG_CHAR_UPPER_A_ACUTE:
+            render_uppercase_diacritic(ASCII_TO_DIALOG('A'), c & 0xF);
+            break;
+        case DIALOG_CHAR_UPPER_E_GRAVE:
+        case DIALOG_CHAR_UPPER_E_CIRCUMFLEX:
+        case DIALOG_CHAR_UPPER_E_UMLAUT:
+        case DIALOG_CHAR_UPPER_E_ACUTE:
+            render_uppercase_diacritic(ASCII_TO_DIALOG('E'), c & 0xF);
+            break;
+        case DIALOG_CHAR_UPPER_I_GRAVE:
+        case DIALOG_CHAR_UPPER_I_CIRCUMFLEX:
+        case DIALOG_CHAR_UPPER_I_UMLAUT:
+        case DIALOG_CHAR_UPPER_I_ACUTE:
+            render_uppercase_diacritic(ASCII_TO_DIALOG('I'), c & 0xF);
+            break;
+        case DIALOG_CHAR_UPPER_O_GRAVE:
+        case DIALOG_CHAR_UPPER_O_CIRCUMFLEX:
+        case DIALOG_CHAR_UPPER_O_UMLAUT:
+        case DIALOG_CHAR_UPPER_O_ACUTE:
+            render_uppercase_diacritic(ASCII_TO_DIALOG('O'), c & 0xF);
+            break;
+        case DIALOG_CHAR_UPPER_U_GRAVE:
+        case DIALOG_CHAR_UPPER_U_CIRCUMFLEX:
+        case DIALOG_CHAR_UPPER_U_UMLAUT:
+        case DIALOG_CHAR_UPPER_U_ACUTE:
+            render_uppercase_diacritic(ASCII_TO_DIALOG('U'), c & 0xF);
+            break;
+        default:
+            render_generic_char(c);
+            break;
+    }
+}
+
 /**
  * Prints a generic white string.
  * In JP/EU a IA1 texture is used but in US a IA4 texture is used.
@@ -645,7 +728,7 @@ void print_generic_string(s16 x, s16 y, const u8 *str) {
                 create_dl_translation_matrix(MENU_MTX_NOPUSH, CHAR_WIDTH_SPACE, 0.0f, 0.0f);
                 break;
             default:
-                render_generic_char(str[strPos]);
+                render_generic_or_accent_char(str[strPos]);
                 if (mark != DIALOG_MARK_NONE) {
                     create_dl_translation_matrix(MENU_MTX_PUSH, 5.0f, 5.0f, 0.0f);
                     render_generic_char(DIALOG_CHAR_MARK_START + mark);
@@ -1335,7 +1418,7 @@ void handle_dialog_text_and_pages(s8 colorMode, struct DialogEntry *dialog, s8 l
                             MENU_MTX_NOPUSH, (f32)(gDialogCharWidths[DIALOG_CHAR_SPACE] * (xMatrix - 1))+_spread, 0, 0);
                     }
 
-                    render_generic_char(strChar);
+                    render_generic_or_accent_char(strChar);
                     create_dl_translation_matrix(MENU_MTX_NOPUSH, (f32)(gDialogCharWidths[strChar]), 0, 0);
                     xMatrix = 1;
                     linePos++;
