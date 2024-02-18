@@ -870,7 +870,7 @@ feux, une autre étoile scintille aujourd'hui sur\n\
 scène avec nous. Lui, qui a combattu et triomphé"))
 
 DEFINE_DIALOG(DIALOG_099, 1, 5, 95, 180, _("\
-du roi des Koopa dans ce château même,\n\
+du roi des Koopas dans ce château même,\n\
 la tête d'affiche du Royaume Champignon,\n\
 faites du bruit pour Mario Mario !"))
 
@@ -926,7 +926,7 @@ Tu trouveras peut-être\n\
 ton bonheur."))
 
 DEFINE_DIALOG(DIALOG_108, 1, 2, 95, 180, _("\
-Le roi des Koopa t'attend.\n\
+Le roi des Koopas t'attend.\n\
 Et toi, qu'est-ce que tu attends,\n\
 superstar ☆ ?"))
 
@@ -991,8 +991,8 @@ de prudence."))
 
 DEFINE_DIALOG(DIALOG_114, 1, 3, 95, 180, _("\
 Ce roi pathétique traite\n\
-les Whomp comme une espèce\n\
-inférieure aux Thwomp.\n\
+les Whomps comme une espèce\n\
+inférieure aux Thwomps.\n\
 Il nous force à construire\n\
 des tours, des maisons et\n\
 des châteaux.\n\
@@ -1714,7 +1714,7 @@ dans leurs chaises. Bref !\n\
 Bienvenue aux Studios.\n\
 On tourne un nouveau film\n\
 en direct, ou TU combats\n\
-le Roi des Koopa, plus\n\
+le Roi des Koopas, plus\n\
 puissant que jamais.\n\
 Un sacré projet, d'autant\n\
 plus que l'on a pas fait\n\
@@ -1759,7 +1759,7 @@ fier de toi, mon p'tit.\n\
 T'iras loin. Loin comment ?\n\
 Comme la porte à 10 étoiles,\n\
 par exemple. Le Roi des\n\
-Koopa et toi devez vous\n\
+Koopas et toi devez vous\n\
 affronter pour que le film\n\
 puisse se conclure de\n\
 manière épique !\n\
@@ -2711,15 +2711,15 @@ regarder davantage. Conseil d'ami !"))
 
 DEFINE_DIALOG(DIALOG_QUIZ_18, 1, 6, 95, 180, _("\
 Au suivant : Mario !\n\
-Qui est responsable de la marginalisation des Whomp ?"))
+Qui est responsable de la marginalisation des Whomps ?"))
 
 DEFINE_DIALOG(DIALOG_QUIZ_19_Q1, 1, 6, 95, 180, _("\
 A) Le Présentateur    B) Mario\n\
-C) Les Whomp          D) Les Thwomp"))
+C) Les Whomps         D) Les Thwomp"))
 
 //A
 DEFINE_DIALOG(DIALOG_QUIZ_20_A, 1, 6, 95, 180, _("\
-Exact ! Les Whomp ont la vie dure depuis que leur\n\
+Exact ! Les Whomps ont la vie dure depuis que leur\n\
 roi a mystérieusement disparu. J'espère que cette\n\
 étoile de puissance valait le coup !"))
 
@@ -2863,7 +2863,7 @@ J'ai été vaincu, mais ma vie ?\n\
 J'en suis entièrement satisfait."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_46, 1, 6, 95, 180, _("\
-Les Whomp reconstruiront, j'en suis convaincu.\n\
+Les Whomps reconstruiront, j'en suis convaincu.\n\
 Parce que l'on est forts. Parce que l'on a dû\n\
 faire des sacrifices."))
 
