@@ -370,16 +370,16 @@ Heureusement pour toi,\n\
 j'ai ce qu'il te faut."))
 
 DEFINE_DIALOG(DIALOG_037, 1, 5, 95, 180, _("\
-Dans les boîtes jaunes se\n\
-trouve la carapace verte.\n\
+Dans cette boîte jaune se\n\
+trouve une carapace verte.\n\
 Si tu grimpes dessus, tu\n\
 pourras surfer sur la lave\n\
-sans risque de brûlure.\n\
-Pour rendre ces boîtes\n\
-solides, il faut trouver\n\
+sans te brûler les fesses.\n\
+Pour pouvoir ouvrir cette\n\
+boîte, il faut enclencher\n\
 l'interrupteur jaune.\n\
-Son emplacement est un\n\
-secret bien gardé.\n\
+L'endroit où il se trouve\n\
+est un secret bien gardé.\n\
 La légende dit ainsi :\n\
 Dans la salle ornée d'un 2,\n\
 Sur un meuble en bois ciré,\n\
