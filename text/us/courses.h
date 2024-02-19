@@ -5,7 +5,7 @@
 // É È Û Î À 
 
 COURSE_ACTS(COURSE_BOB, _(" 1 BASSIN BOUILLANT"), //étoiles trompeuses
-       _("À  É  È  Î  Û"),     _("PIÈCES ROUGES SUR GEYSERS") , _("EN HAUT DE LA CHUTE DE LAVE"),
+       _("ÉTOILES TROMPEUSES"),     _("PIÈCES ROUGES SUR GEYSERS") , _("EN HAUT DE LA CHUTE DE LAVE"),
        _("DÉBARRASSAGE EXPRESS")  , _("LE DÉFI DES ANNEAUX"),        _("100 PIÈCES BRÛLANTES"),        _("LE ROI DES VOYOUS"))
 
 COURSE_ACTS(COURSE_WF, _(" 2 FERME FLOTTANTE"),
