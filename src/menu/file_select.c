@@ -1623,6 +1623,7 @@ void print_file_select_strings(void) {
 
 }
 
+u8 ngoffset = 0; //moves cursor when on ng+text
 s8 fsi = 0;//file selection index
 u8 fshi = 0;//file selection horizontal index
 u8 fs_ms = 0;//file select menu state
@@ -1735,7 +1736,7 @@ void new_file_select() {
 
     if (fs_ms > 0) {
         cursor_y = 145-(fsi*60);
-        cursor_x = 96.0f+(fshi*77.0f);
+        cursor_x = 96.0f+(fshi*77.0f)-(fshi*ngoffset*21);
     }
 
     for (i=0;i<3;i++) {
@@ -1854,8 +1855,8 @@ void new_file_select() {
                                 break;
                             }
 
-                            int_to_str(randomizer_global_seed, &textSeed[6]);
-                            print_generic_string(180+flsex[i], 160-(i*60), textSeed);
+                            int_to_str(randomizer_global_seed, &textSeed[7]);
+                            print_generic_string(173+flsex[i], 160-(i*60), textSeed);
                         }
 
                         gSPDisplayList(gDisplayListHead++, dl_ia_text_end);
@@ -1978,6 +1979,7 @@ void new_file_select() {
                 fs_ms=0;
                 play_sound(SOUND_MENU_CLICK_FILE_SELECT, gGlobalSoundSource);
                 cursor_y = 170-(fsi*60);
+                ngoffset = 0;
                 return;
             }
 
@@ -1986,6 +1988,7 @@ void new_file_select() {
                 fs_letgo = TRUE;
                 fshi ++;
                 fshi = fshi % 2;
+                ngoffset = 1;
                 play_sound(SOUND_MENU_CHANGE_SELECT, gGlobalSoundSource);
             }
 

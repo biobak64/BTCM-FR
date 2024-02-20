@@ -422,7 +422,7 @@ le fromage !!\n\
 ah je t'ouvrirait les\n\
 porte aussi ¤^¤^ hihi"))
 
-DEFINE_DIALOG(DIALOG_042, 1, 4, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_042, 1, 3, 95, 180, _("\
 le proprio a laisser\n\
 trainer ses vieille\n\
 chaussette qui pue...\n\
@@ -437,7 +437,7 @@ DEFINE_DIALOG(DIALOG_043, 1, 2, 95, 180, _("\
 euhhhh la maison est\n\
 en train de bruler la ¤^¤^\n\
 faudrait genre eteindre\n\
-le four ou jsp quoi ??"))
+le four ou jsp nn ??"))
 
 DEFINE_DIALOG(DIALOG_044, 1, 3, 95, 180, _("\
 t'as sauver la maison\n\
@@ -831,7 +831,7 @@ plus récente l'estime à\n\
 DONNÉES CORROMPUES"))
 
 DEFINE_DIALOG(DIALOG_091, 2, 2, 30, 200, _("\
-''Salutations, Superstar ;\n\
+''Salutations, Superstar;\n\
 Savais-tu que ton ennemi juré se terrait dans\n\
 le château en ruines depuis tout ce temps ?"))
 
@@ -867,45 +867,45 @@ moi ! Le Présentateur !"))
 DEFINE_DIALOG(DIALOG_098, 1, 2, 95, 180, _("\
 Mais assez parlé de moi. Bien que je brille de mille\n\
 feux, une autre étoile scintille aujourd'hui sur\n\
-scène avec nous. Lui, qui a combattu et triomphé"))
+scène avec nous. Lui, qui a combattu et triomphé du"))
 
 DEFINE_DIALOG(DIALOG_099, 1, 5, 95, 180, _("\
-du roi des Koopas dans ce château même,\n\
-la tête d'affiche du Royaume Champignon,\n\
-faites du bruit pour Mario Mario !"))
+roi des Koopas dans ce château même, la tête d'affiche du\n\
+Royaume Champignon, faites du bruit pour Mario Mario !"))
+
 
 DEFINE_DIALOG(DIALOG_100, 1, 3, 95, 180, _("\
-Notre invité d'honneur est venu aujourd'hui pour\n\
-terrasser son ennemi juré. Je doute que le\n\
-grand Bowser ait besoin d'être présenté..."))
+Notre invité d'honneur est venu aujourd'hui pour terrasser\n\
+son ennemi juré. Je doute que le grand Bowser ait besoin\n\
+d'être présenté..."))
 
 DEFINE_DIALOG(DIALOG_101, 1, 3, 95, 180, _("\
 Ne ratez pas cette ultime confrontation \n\
 sur vos écrans de télévision !"))
 
 DEFINE_DIALOG(DIALOG_102, 1, 5, 30, 200, _("\
-Cachés derrière un miroir magique, des mondes\n\
-prennent vie grâce au pouvoir des étoiles; ces\n\
-univers devaient être l'atout caché de Bowser"))
+Cachés derrière un miroir magique, des mondes prennent vie\n\
+grâce au pouvoir des étoiles; ces univers devaient être\n\
+l'ultime atout de Bowser dans l'éventualité qu'il échoue."))
 
 DEFINE_DIALOG(DIALOG_103, 1, 4, 95, 180, _("\
-dans l'éventualité qu'il échoue. Vous pensez \n\
-qu'il ne voulait pas prendre de risque, ou\n\
-bien il savait qu'il allait y rester ?"))
+Alors, vous pensez qu'il voulait simplement mettre toutes\n\
+les chances de son côté, ou bien il savait d'avance qu'il\n\
+allait y rester ? Ha ha ha !"))
 
 DEFINE_DIALOG(DIALOG_104, 1, 5, 30, 200, _("\
-Sachez que le studio a pris la liberté\n\
-d'utiliser ses propres étoiles pour \n\
-façonner les mondes à sa manière..."))
+Sachez que le studio a pris la liberté d'utiliser ses\n\
+propres étoiles pour façonner les mondes à sa manière..."))
+
 
 DEFINE_DIALOG(DIALOG_105, 1, 3, 95, 180, _("\
-Afin d'offrir la meilleure des expériences\n\
-à notre jeune candidat, bien évidemment..."))
+Afin d'offrir la meilleure des expériences à notre\n\
+jeune candidat, bien évidemment..."))
 
 DEFINE_DIALOG(DIALOG_106, 1, 2, 95, 180, _("\
-Tant de menaces et de merveilles l'attendent\n\
-derrière ce miroir maudit, alors gardez les\n\
-yeux rivés sur le spectacle du millénaire !"))
+Tant de menaces et de merveilles l'attendent derrière\n\
+ce miroir maudit, alors gardez les yeux rivés sur le\n\
+spectacle du millénaire !"))
 
 DEFINE_DIALOG(DIALOG_107, 1, 4, 95, 180, _("\
 Mario ! Ça fait un bail,\n\
@@ -927,8 +927,7 @@ ton bonheur."))
 
 DEFINE_DIALOG(DIALOG_108, 1, 2, 95, 180, _("\
 Le roi des Koopas t'attend.\n\
-Et toi, qu'est-ce que tu attends,\n\
-superstar ☆ ?"))
+Et toi, qu'est-ce que tu attends, superstar ☆ ?"))
 
 DEFINE_DIALOG(DIALOG_109, 1, 5, 95, 180, _("\
 ...\n\
@@ -1658,7 +1657,7 @@ The Super Mario 64 Team"))
 
 DEFINE_DIALOG(DIALOG_162, 1, 4, 30, 200, _("\
 Parfait. Allez, je te libère. N'oublie\n\
-pas de monter en niveau pour survivre aux\n\
+pas de monter de niveau pour survivre aux\n\
 épreuves brutales qui t'attendent."))
 
 DEFINE_DIALOG(DIALOG_163, 1, 5, 30, 200, _("\
@@ -1682,9 +1681,9 @@ hein ? Eh bien, tout ce que tu peux faire pour\n\
 le moment, c'est jouer le jeu."))
 
 DEFINE_DIALOG(DIALOG_167, 1, 4, 30, 200, _("\
-On est ses employés. On n'a pas de forme\n\
-physique, on se matérialise simplement là\n\
-où le Présentateur nous demande."))
+On est ses employés. On n'a pas de forme physique,\n\
+on se matérialise simplement là où le Présentateur\n\
+nous demande."))
 
 DEFINE_DIALOG(DIALOG_168, 1, 5, 30, 200, _("\
 Oh, bonjour... Bienvenue au studio du Présentateur.\n\
@@ -2333,8 +2332,8 @@ te prendras sûrement une\n\
 raclée avec de telles\n\
 statistiques.\n\
 Heureusement pour toi,\n\
-tu peux monter de niveau,\n\
-en utilisant des pièces\n\
+tu peux monter de niveau\n\
+en utilisant tes pièces\n\
 combinées au pouvoir des\n\
 étoiles de puissance.\n\
 La première amélioration\n\
@@ -2382,8 +2381,8 @@ dans les niveaux."))
 DEFINE_DIALOG(DIALOG_TUTORIAL_4, 1, 6, 95, 180, _("\
 Acheter un badge, c'est\n\
 bien, mais pour activer\n\
-ses effets, il faut d'abord\n\
-l'équiper !\n\
+ses effets, il faut\n\
+d'abord l'équiper !\n\
 \n\
 \n\
 Pour équiper un badge,\n\
@@ -2583,7 +2582,7 @@ Tu n'en as fait qu'une bouchée. Mais..."))
 
 DEFINE_DIALOG(DIALOG_BOWSER_POST_4, 1, 6, 95, 180, _("\
 Mes sbires, qui ont entretenu et vécu dans ces mondes,\n\
-ils ne renonceraient jamais à se battre en mon nom ;\n\
+ils ne renonceraient jamais à se battre en mon nom;\n\
 à moins qu'une force plus grande encore s'impose."))
 
 DEFINE_DIALOG(DIALOG_BOWSER_POST_5, 1, 6, 95, 180, _("\
@@ -2689,7 +2688,7 @@ S'ils se trompent sur deux d'entre elles, ils seront\n\
 
 DEFINE_DIALOG(DIALOG_QUIZ_14_2, 1, 6, 95, 180, _("\
 S'ils réussissent, ils seront libres, et plus riches\n\
-de cent pièces ; une fortune peu conséquente mais\n\
+de cent pièces; une fortune peu conséquente mais\n\
 tout de même pas négligeable !"))
 
 DEFINE_DIALOG(DIALOG_QUIZ_15, 1, 6, 95, 180, _("\
@@ -3243,7 +3242,7 @@ la Terre va être absorbé. Votre monde est Agamemnon."))
 DEFINE_DIALOG(DIALOG_POEM_1, 1, 6, 95, 180, _("\
 Quand le monde vivait de bonheur abondant,\n\
 Quand le monstre fut forcé à se limer les dents,\n\
-Quand les pécheurs laissèrent place aux vertueux ;"))
+Quand les pécheurs laissèrent place aux vertueux;"))
 
 DEFINE_DIALOG(DIALOG_POEM_2, 1, 6, 95, 180, _("\
 Quand les Hommes aspirèrent à proclamer les cieux,\n\
