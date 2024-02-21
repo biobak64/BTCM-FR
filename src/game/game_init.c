@@ -739,7 +739,7 @@ void setup_game_memory(void) {
 }
 
 #ifdef TEXT_BOX_DEBUG
-u8 textBoxId = 0;
+u16 textBoxId = 0;
 static void debug_text_box_input(void){
     if (gPlayer1Controller->buttonPressed & D_JPAD) {
         if(gPlayer1Controller->buttonDown & L_TRIG) textBoxId -= 10;

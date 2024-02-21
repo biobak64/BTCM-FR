@@ -191,7 +191,7 @@ Would you like to Save?\n\
 
 DEFINE_DIALOG(DIALOG_016, 1, 3, 95, 180, _("\
 Le cap'taine a le mal de\n\
-mer, on dirait. Il s'est \n\
+mer, on dirait. Il s'est\n\
 enfermé dans ses quartiers.\n\
 La clé est dans la cale.\n\
 J'te dis ça comme ça,\n\
@@ -278,7 +278,7 @@ Ici, tu peux écouter la bande-son du jeu."))
 
 DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 180, _("\
 On dirait que cette porte a été verrouillée par\n\
-le Présentateur. Peut-être faudra-t-il \n\
+le Présentateur. Peut-être faudra-t-il\n\
 revenir après un évènement important ?"))
 
 DEFINE_DIALOG(DIALOG_029, 1, 3, 95, 180, _("\
@@ -416,7 +416,7 @@ fromage sur des piege\n\
 mortel cette fraude !!\n\
 tu pense que tu pourrait\n\
 nous aider ?? g trouver\n\
-une étoile je te la \n\
+une étoile je te la\n\
 donne si tu me ramene\n\
 le fromage !!\n\
 ah je t'ouvrirait les\n\
@@ -467,7 +467,7 @@ cannon for you!"))
 
 DEFINE_DIALOG(DIALOG_048, 1, 3, 95, 180, _("\
 mec c horrible...\n\
-ya un gros drama en \n\
+ya un gros drama en\n\
 ce moment...\n\
 la maison elle est\n\
 EN FEU mec !!!\n\
@@ -481,7 +481,7 @@ le sous-sol me fait\n\
 bcp trop peur...\n\
 \n\
 enft c juste une pièce\n\
-normale mais ya un \n\
+normale mais ya un\n\
 monstre dedans\n\
 du coup fait gaffe..."))
 
@@ -585,7 +585,7 @@ C'est l'prospecteur !\n\
 péri dans cette mine, mais\n\
 mon âme est toujours là.\n\
 J'te propose un marché.\n\
-J'veux te voir sauter à \n\
+J'veux te voir sauter à\n\
 la corde de flammes 25\n\
 fois, et j'te filerai\n\
 mon étoile ! Har har !"))
@@ -649,7 +649,7 @@ En garde !"))
 DEFINE_DIALOG(DIALOG_068, 1, 3, 95, 180, _("\
 Homme de chair, tu as\n\
 prouvé ta force.\n\
-Prends mon étoile. \n\
+Prends mon étoile.\n\
 J'ai également fait lever\n\
 la barrière qui scellait\n\
 les bottes-fusée."))
@@ -742,7 +742,7 @@ C'est un univers libre\n\
 de toute interférence\n\
 extérieure, fabriqué avec\n\
 des DDD-0945-DDonnées de\n\
-l'extérieur et la puissance \n\
+l'extérieur et la puissance\n\
 des étoiles.\n\
 À notre droite se trouvent\n\
 les champs d'octets, et à\n\
@@ -856,22 +856,23 @@ sa puissance dans une pièce dissimulée\n\
 derrière la vitre d'un miroir maudit."))
 
 DEFINE_DIALOG(DIALOG_096, 1, 4, 30, 200, _("\
-Mesdames et messieurs, ni l'un ni l'autre ou entre\n\
-les deux, préparez-vous car notre fabuleuse émission\n\
-est sur le point de commencer !"))
+Mesdames, messieurs, ni l'un ni l'autre ou entre les deux,\n\
+préparez-vous car notre fabuleuse émission est sur le point\n\
+de commencer !"))
 
 DEFINE_DIALOG(DIALOG_097, 1, 5, 30, 200, _("\
 Animée par votre présentateur préféré,\n\
 moi ! Le Présentateur !"))
 
 DEFINE_DIALOG(DIALOG_098, 1, 2, 95, 180, _("\
-Mais assez parlé de moi. Bien que je brille de mille\n\
-feux, une autre étoile scintille aujourd'hui sur\n\
-scène avec nous. Lui, qui a combattu et triomphé du"))
+Mais assez parlé de moi. Bien que je brille de mille feux,\n\
+une autre étoile scintille sur scène avec nous ce soir.\n\
+Celui qui a combattu et triomphé du roi des Koopas "))
 
 DEFINE_DIALOG(DIALOG_099, 1, 5, 95, 180, _("\
-roi des Koopas dans ce château même, la tête d'affiche du\n\
-Royaume Champignon, faites du bruit pour Mario Mario !"))
+dans ce château même, la tête d'affiche du Royaume\n\
+Champignon, faites un tonnerre d'applaudissements\n\
+pour Mario Mario !"))
 
 
 DEFINE_DIALOG(DIALOG_100, 1, 3, 95, 180, _("\
@@ -880,7 +881,7 @@ son ennemi juré. Je doute que le grand Bowser ait besoin\n\
 d'être présenté..."))
 
 DEFINE_DIALOG(DIALOG_101, 1, 3, 95, 180, _("\
-Ne ratez pas cette ultime confrontation \n\
+Ne ratez pas cette ultime confrontation\n\
 sur vos écrans de télévision !"))
 
 DEFINE_DIALOG(DIALOG_102, 1, 5, 30, 200, _("\
@@ -1065,7 +1066,7 @@ c'est bien ça ?\n\
 \n\
 \n\
 Elle est devenue une\n\
-entité de PALAMEDES. \n\
+entité de PALAMEDES.\n\
 Il aurait été inutile de\n\
 la garder ici. Les fidèles\n\
 vénèrent son image,\n\
@@ -1222,7 +1223,7 @@ douzaine. Nous descendons\n\
 des marins qui autrefois\n\
 ont dompté ces mers, et\n\
 nous renions Agamemnon.\n\
-L'Empire est naïf de \n\
+L'Empire est naïf de\n\
 croire pouvoir atteindre\n\
 l'immortalité...\n\
 Ils sont stagnants, leurs\n\
@@ -1672,7 +1673,7 @@ Il va falloir penser à améliorer tout ça."))
 
 DEFINE_DIALOG(DIALOG_165, 1, 5, 30, 200, _("\
 Si tu as besoin d'aide, rends-toi dans la salle\n\
-de conférence en passant par les portes doubles\n\
+de conférence en passant par la double-porte\n\
 derrière nous. Il te dira quoi faire."))
 
 DEFINE_DIALOG(DIALOG_166, 1, 4, 30, 200, _("\
@@ -1687,7 +1688,7 @@ nous demande."))
 
 DEFINE_DIALOG(DIALOG_168, 1, 5, 30, 200, _("\
 Oh, bonjour... Bienvenue au studio du Présentateur.\n\
-Enfin, c'est pas vraiment le sien. \n\
+Enfin, c'est pas vraiment le sien.\n\
 Il a juste... pris le contrôle du bâtiment."))
 
 DEFINE_DIALOG(DIALOG_169, 1, 5, 95, 180, _("\
@@ -2151,7 +2152,7 @@ technologie pour mener\n\
 à bien la mission."))
 
 DEFINE_DIALOG(DIALOG_ENTRY_9, 1, 5, 95, 180, _("\
-@00FF00FFIX: ''L'Écran'' semble \n\
+@00FF00FFIX: ''L'Écran'' semble\n\
 pouvoir propager un signal\n\
 qu'il réplique et envoie\n\
 via les terminaisons\n\
@@ -2199,7 +2200,7 @@ DEFINE_DIALOG(DIALOG_ENTRY_12, 1, 6, 95, 180, _("\
 a été autorisé. Les entités\n\
 de PALAMEDES ne doivent\n\
 être créées qu'à partir\n\
-d'organismes de classe \n\
+d'organismes de classe\n\
 DELTA.\n\
 @00FF00FFLes entités de PALAMEDES\n\
 doivent être déployées\n\
@@ -2646,7 +2647,7 @@ du plus profond de mon âme, je déteste les thwomp-"))
 //cheer
 
 DEFINE_DIALOG(DIALOG_QUIZ_7, 1, 6, 95, 180, _("\
-Merci, Whomp Ouvrier, c'est super. Ensuite, bien \n\
+Merci, Whomp Ouvrier, c'est super. Ensuite, bien\n\
 au centre, c'est le champion du royaume champignon,\n\
 c'est la légende, c'est le célèbre Mario Mario !"))
 
@@ -3095,7 +3096,7 @@ Mais le spectacle... Il était bien, non ? On s'est bien\n\
 amusés. Dommage qu'on ait dû être l'un contre l'autre."))
 
 DEFINE_DIALOG(DIALOG_SB_5B, 1, 6, 95, 180, _("\
-J'espère que je ne périrai pas en vain. \n\
+J'espère que je ne périrai pas en vain.\n\
 Va détruire la lune, Mario. Peu importe les conséquences.\n\
 Fais ce que tu as à faire."))
 
@@ -3163,7 +3164,7 @@ Amélioration des textures"))
 
 DEFINE_DIALOG(DIALOG_CREDITS_12, 1, 6, 95, 180, _("\
 - SpK -\n\
-Don du Crâne de Spooky Mario 666 pour le \n\
+Don du Crâne de Spooky Mario 666 pour le\n\
 costume de Pirate, Aide avec la musique"))
 
 DEFINE_DIALOG(DIALOG_CREDITS_13, 1, 6, 95, 180, _("\
@@ -3262,7 +3263,7 @@ Mario Mario !! :3c\n\
 Toi aussi, t'es une\n\
 star du showbiz !!\n\
 On est en tournée à Festella\n\
-pour profiter de tout ce \n\
+pour profiter de tout ce\n\
 monde qui vient voir ton\n\
 super film !!\n\
 Malheureusement, mes soeurs\n\
@@ -3522,8 +3523,8 @@ Ses PV et son Mana maximum ont augmenté.\n\
 Il peut également porter davantage de badges."))
 
 DEFINE_DIALOG(DIALOG_SWITCH_1, 1, 5, 95, 180, _("\
-Fais un triple saut pour t'envoler. \n\
-Maintiens [B] pour te propulser, mais \n\
+Fais un triple saut pour t'envoler.\n\
+Maintiens [B] pour te propulser, mais\n\
 garde un oeil ta jauge d'essence !"))
 
 DEFINE_DIALOG(DIALOG_SWITCH_2, 1, 5, 95, 180, _("\
@@ -3694,7 +3695,7 @@ Tu cherches les bourses ?\n\
 Il y en a une dans chaque\n\
 monde principal, du Bassin\n\
 Bouillant à Festella.\n\
-Si tu trouves les 12 \n\
+Si tu trouves les 12\n\
 bourses, les pièces que\n\
 tu ramèneras des mondes\n\
 seront doublées.\n\

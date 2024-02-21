@@ -1017,7 +1017,7 @@ int gPressedStart = 0;
 u8 playtimer = 0;
 
 #ifdef TEXT_BOX_DEBUG
-    extern u8 textBoxId;
+    extern u16 textBoxId;
     #include "dialog_ids.h"
 #endif
 
