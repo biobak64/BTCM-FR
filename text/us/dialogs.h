@@ -26,13 +26,10 @@ Déplace le stick analogique\n\
 pour sélectionner un badge.\n\
 [A] pour confirmer l'achat."))
 
-DEFINE_DIALOG(DIALOG_002, 1, 2, 95, 180, _("\
-Je chef.\n\
-Aime village.\n\
-Jolie vue. Maison\n\
-très confort.\n\
-Tu visiter\n\
-quand vouloir !"))
+DEFINE_DIALOG(DIALOG_002, 1, 1, 95, 180, _("\
+Je chef. Aime village.\n\
+Jolie vue. Maison confort.\n\
+Tu visiter quand vouloir !"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 2, 95, 180, _("\
 Bonjour. Bienvenue village.\n\
@@ -92,14 +89,15 @@ Ouste ! T'as déjà ton\n\
 étoile, alors laisse ce\n\
 vieux cap'taine tranquille."))
 
-DEFINE_DIALOG(DIALOG_008, 1, 3, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_008, 1, 2, 95, 180, _("\
 Escalader rocher.\n\
-Content ! Mais\n\
-maintenant coincé.\n\
+Content !\n\
+Mais maintenant coincé.\n\
+\n\
 Toi. Montrer moi\n\
 comment descendre !\n\
-\n\
-Sauter. Courage.\n\
+Sauter.\n\
+Courage.\n\
 Avant toucher sol,\n\
 coup de pied.\n\
 Je regarder !"))
@@ -225,9 +223,9 @@ that you cannot!"))
 
 DEFINE_DIALOG(DIALOG_018, 1, 4, 95, 180, _("\
 Arrr ! Bienvenue à bord,\n\
-moussaillon ! Des boo\n\
-de malheur ont envahi\n\
-not'navire.\n\
+moussaillon !\n\
+Des boo de malheur ont\n\
+envahi not'navire.\n\
 On sait pas d'où y\n\
 viennent, mais il va\n\
 falloir qu'ils partent."))
@@ -249,7 +247,7 @@ Ici, tu peux acheter et jouer à\n\
 des mini-jeux, ou voir tes scores."))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 180, _("\
-Acheter [%] pour [%]$?\n\
+Acheter [%] pour [%]$ ?\n\
 (Solde actuel : [%]$)"))
 
 DEFINE_DIALOG(DIALOG_022, 1, 2, 95, 180, _("\
@@ -311,30 +309,30 @@ the winner of the race.\n\
 Congrats, Mario!"))
 
 DEFINE_DIALOG(DIALOG_032, 1, 3, 95, 180, _("\
-Après avoir acheté un\n\
-badge, appuie sur START\n\
-pour ouvrir le menu pause.\n\
-Ensuite, appuie sur [L]\n\
-et [R] pour aller dans\n\
-l'onglet BADGES, puis\n\
-sélectionne un badge\n\
-avec le stick et appuie\n\
+Après avoir acheté un badge,\n\
+appuie sur START pour ouvrir\n\
+le menu de pause.\n\
+Ensuite, utilise [L] et [R] pour\n\
+naviguer jusqu'à l'onglet\n\
+BADGES.\n\
+Sélectionne un badge avec le\n\
+stick analogique, puis appuie\n\
 sur [A] pour l'équiper.\n\
 Tu ne peux équiper qu'un\n\
 certain nombre de badges\n\
 à la fois, selon ton PB.\n\
-Pour augmenter ton PB et\n\
-équiper plus de badges,\n\
+Pour augmenter ton PB\n\
+et équiper plus de badges,\n\
 tu dois monter de niveau."))
 
 DEFINE_DIALOG(DIALOG_033, 1, 7, 95, 180, _("\
-Les courants sont forts,\n\
-par ici. Je peux lever\n\
-le pont pour 10 pièces !\n\
-Eh oui, je sais, c'est\n\
-cher, mais c'est comme ça.\n\
-Allez, appuie sur [A]\n\
-pour envoyer l'argent."))
+Sacré courants, hein ?\n\
+Je peux lever le pont\n\
+en échange de 10 pièces.\n\
+Eh oui, je sais, c'est cher,\n\
+mais c'est comme ça.\n\
+Allez, appuie sur [A] pour\n\
+abouler l'argent."))
 
 /*
 DEFINE_DIALOG(DIALOG_034, 1, 4, 95, 180, _("\
@@ -356,16 +354,16 @@ Salle de recherche\n\
 préhistorique"))
 
 DEFINE_DIALOG(DIALOG_036, 1, 4, 95, 180, _("\
-Les autres voyous, tout\n\
-ce qu'ils veulent, c'est\n\
+Les autres voyous, ils\n\
+pensent qu'à un truc, c'est\n\
 te mettre des coups d'boule.\n\
 Bah pas moi.\n\
-Moi, j'suis là pour\n\
-me remplir les poches,\n\
+Moi, j'suis là pour me\n\
+remplir les poches,\n\
 tu captes ?\n\
 \n\
-Tu feras gaffe,\n\
-la lave, ça brûle.\n\
+Tu feras gaffe, p'tit gars.\n\
+La lave, ça brûle.\n\
 Heureusement pour toi,\n\
 j'ai ce qu'il te faut."))
 
@@ -376,7 +374,7 @@ Si tu grimpes dessus, tu\n\
 pourras surfer sur la lave\n\
 sans te brûler les fesses.\n\
 Pour pouvoir ouvrir cette\n\
-boîte, il faut enclencher\n\
+boîte, il faudra enclencher\n\
 l'interrupteur jaune.\n\
 L'endroit où il se trouve\n\
 est un secret bien gardé.\n\
@@ -389,8 +387,8 @@ Révèlera la voie cachée."))
 DEFINE_DIALOG(DIALOG_038, 1, 4, 95, 180, _("\
 Que d'étoiles, ma parole !\n\
 Mais attention aux\n\
-contrefaçons ! Laquelle\n\
-choisiras-tu ?"))
+contrefaçons !\n\
+Laquelle choisiras-tu ?"))
 
 DEFINE_DIALOG(DIALOG_039, 1, 4, 95, 180, _("\
 Les tyroliennes, c'est\n\
@@ -398,15 +396,15 @@ l'éclate ! Mais avant de\n\
 te lancer, il va te falloir\n\
 de quoi t'accrocher.\n\
 Un bout de tuyau, par\n\
-exemple. Peut-être qu'il\n\
-y en a un dans le coin."))
+exemple. Si tu cherches,\n\
+tu en trouveras peut-être\n\
+un dans le coin."))
 
-DEFINE_DIALOG(DIALOG_040, 1, 5, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_040, 1, 4, 95, 180, _("\
 Bonjour, jeune homme !\n\
-Maintiens [A] pour\n\
-transférer les pièces\n\
-de ce niveau vers ton\n\
-porte-monnaie global."))
+Maintiens [A] pour transférer\n\
+les pièces de ce niveau vers\n\
+ton porte-monnaie global."))
 
 DEFINE_DIALOG(DIALOG_041, 1, 5, 95, 180, _("\
 saaaaalut ¤^¤^\n\
@@ -467,8 +465,8 @@ cannon for you!"))
 
 DEFINE_DIALOG(DIALOG_048, 1, 3, 95, 180, _("\
 mec c horrible...\n\
-ya un gros drama en\n\
-ce moment...\n\
+ya un gros drama\n\
+en ce moment...\n\
 la maison elle est\n\
 EN FEU mec !!!\n\
 c une dinguerie...\n\
@@ -608,8 +606,9 @@ filer en ligne droite !\n\
 C'est pas un vol très long,\n\
 alors sois prudent !"))
 
-DEFINE_DIALOG(DIALOG_064, 1, 3, 95, 180, _("\
-Yiiii haa ! Alors part'naire,\n\
+DEFINE_DIALOG(DIALOG_064, 1, 4, 95, 180, _("\
+Yiiii haa !\n\
+Alors part'naire,\n\
 qu'est-ce que tu dis\n\
 d'cette vue ?"))
 
@@ -640,10 +639,10 @@ Me supplie-t-il de lui\n\
 conférer mon étoile, et\n\
 de lui donner accès aux\n\
 bottes-fusées ?\n\
-S'il en est ainsi, il\n\
-devra d'abord m'affronter\n\
-en duel, afin de me prouver\n\
-la valeur de son âme.\n\
+S'il en est ainsi, il devra\n\
+d'abord m'affronter en duel\n\
+afin de me prouver la\n\
+valeur de son âme.\n\
 En garde !"))
 
 DEFINE_DIALOG(DIALOG_068, 1, 3, 95, 180, _("\
@@ -667,8 +666,8 @@ la guérir de ce mal."))
 
 DEFINE_DIALOG(DIALOG_070, 1, 3, 95, 180, _("\
 Oh, Mario...\n\
-Vous arrivez\n\
-juste à temps...\n\
+Vous arrivez...\n\
+Juste à temps...\n\
 Les ténèbres...\n\
 Elles corrompent mon\n\
 coeur et mon âme...\n\
@@ -2619,9 +2618,9 @@ Dépêche-toi de monter sur scène, ou le public\n\
 va mourir d'ennui !"))
 
 DEFINE_DIALOG(DIALOG_QUIZ_2, 1, 6, 95, 180, _("\
-...Ou mourir tout court, d'ailleurs, puisque le\n\
-plafond est en capacité d'éjecter une demi-douzaine\n\
-de scies circulaires."))
+...Ou mourir tout court, d'ailleurs, puisque le plafond\n\
+est en capacité d'éjecter une demi-douzaine de scies\n\
+circulaires."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_3, 1, 6, 95, 180, _("\
 Bienvenue, messieurs ! Mon nom est Brandon Auguste\n\
@@ -2669,7 +2668,7 @@ sur vous-même ? Vous m'avez l'air fascinant !"))
 DEFINE_DIALOG(DIALOG_QUIZ_11, 1, 6, 95, 180, _("\
 Reggie ! Je m'appelle Reggie. Tu devrais le savoir !\n\
 Comment t'as pu m'oublier ! Je suis là depuis le début,\n\
-dans les confins de la conscience collective!"))
+dans les confins de la conscience collective !"))
 
 DEFINE_DIALOG(DIALOG_QUIZ_12, 1, 6, 95, 180, _("\
 Éveillez-vous. Éveillez-vous et voyez-moi prendre cette\n\
@@ -2766,9 +2765,9 @@ PAS ! NE M'OUBLIEZ PAS !! NE M'OOOuuu..."))
 
 //showrunner
 DEFINE_DIALOG(DIALOG_QUIZ_27, 1, 6, 95, 180, _("\
-Eh bien, après que notre énervant candidat a été\n\
-éliminé pour avoir été énervant, la compétition est\n\
-plus rude que jamais !"))
+Eh bien, maintenant que notre énervant candidat\n\
+a été éliminé pour avoir été énervant, la compétition\n\
+est plus rude que jamais !"))
 
 DEFINE_DIALOG(DIALOG_QUIZ_28, 1, 6, 95, 180, _("\
 Whomp Ouvrier, la prochaine question est pour vous.\n\
@@ -2779,7 +2778,7 @@ pièce que ce monstre inhumain ?"))
 DEFINE_DIALOG(DIALOG_QUIZ_29, 1, 6, 95, 180, _("\
 C'est... difficile. Il a causé tant de peine, à moi et\n\
 à mon peuple. Mais je ne veux pas perpétuer le cycle de\n\
-la violence. Je refuse d'antagoniser Mario."))
+la violence. Je refuse de diaboliser Mario."))
 
 //sr
 DEFINE_DIALOG(DIALOG_QUIZ_30, 1, 6, 95, 180, _("\
@@ -2802,8 +2801,9 @@ C) Non D) Non"))
 
 //whomp (stop music)
 DEFINE_DIALOG(DIALOG_QUIZ_34, 1, 6, 95, 180, _("\
-Ça me fait mal. Pas les choses que tu as déjà faites,\n\
-mais le fait que tu n'arrives pas à reconnaître tes torts."))
+Ça me brise le coeur. Non pas les choses que tu as\n\
+déjà faites, mais le fait que tu n'arrives pas à\n\
+reconnaître tes torts."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_35, 1, 6, 95, 180, _("\
 Excepté les thwomp, tout le monde peut changer, et\n\
@@ -2895,7 +2895,7 @@ DEFINE_DIALOG(DIALOG_QUIZ_52, 1, 6, 95, 180, _("\
 un fond de vérité à ses paroles."))
 
 DEFINE_DIALOG(DIALOG_QUIZ_53, 1, 6, 95, 180, _("\
-Mais pourquoi te bats-tu? Pourquoi fais-tu\n\
+Mais pourquoi te bats-tu ? Pourquoi fais-tu\n\
 tout ça ? Quelles sont tes motivations ?"))
 
 DEFINE_DIALOG(DIALOG_QUIZ_54, 1, 6, 95, 180, _("\
@@ -3525,7 +3525,7 @@ Il peut également porter davantage de badges."))
 DEFINE_DIALOG(DIALOG_SWITCH_1, 1, 5, 95, 180, _("\
 Fais un triple saut pour t'envoler.\n\
 Maintiens [B] pour te propulser, mais\n\
-garde un oeil ta jauge d'essence !"))
+garde un oeil sur ta jauge d'essence !"))
 
 DEFINE_DIALOG(DIALOG_SWITCH_2, 1, 5, 95, 180, _("\
 Tu peux désormais trouver des graines cosmiques\n\
