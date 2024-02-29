@@ -830,7 +830,8 @@ void thread5_game_loop(UNUSED void *arg) {
         }
 #endif
 
+#ifdef TEXT_BOX_DEBUG
 debug_text_box_input();
-
+#endif
     }
 }
