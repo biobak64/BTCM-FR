@@ -196,30 +196,9 @@ J'te dis ça comme ça,\n\
 matelot."))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
-I'm the Big Bob-omb, lord\n\
-of all blasting matter,\n\
-king of ka-booms the\n\
-world over!\n\
-How dare you scale my\n\
-mountain? By what right\n\
-do you set foot on my\n\
-imperial mountaintop?\n\
-You may have eluded my\n\
-guards, but you'll never\n\
-escape my grasp...\n\
-\n\
-...and you'll never take\n\
-away my Power Star. I\n\
-hereby challenge you,\n\
-Mario!\n\
-If you want the Star I\n\
-hold, you must prove\n\
-yourself in battle.\n\
-\n\
-Can you pick me up from\n\
-the back and hurl me to\n\
-this royal turf? I think\n\
-that you cannot!"))
+Cette porte ne peut être ouverte que\n\
+par la puissance d'une Graine Cosmique.\n\
+Tu n'en as pas encore."))
 
 DEFINE_DIALOG(DIALOG_018, 1, 4, 95, 180, _("\
 Arrr ! Bienvenue à bord,\n\
@@ -263,7 +242,7 @@ Nouveau record pour [%] : [%] !"))
 
 DEFINE_DIALOG(DIALOG_025, 1, 4, 95, 180, _("\
 Cette porte ne peut être ouverte que par\n\
-la puissance de [%] graines cosmiques.\n\
+la puissance de [%] Graines Cosmiques.\n\
 Il t'en faut encore [%]."))
 
 DEFINE_DIALOG(DIALOG_026, 1, 4, 95, 180, _("\
@@ -2400,8 +2379,8 @@ pour t'habituer à cette\n\
 nouvelle mécanique."))
 
 DEFINE_DIALOG(DIALOG_TUTORIAL_7, 1, 6, 95, 180, _("\
-Tu as deux compteurs de\n\
-pièces différents.\n\
+Tu as deux compteurs\n\
+de pièces différents.\n\
 L'un est lié au niveau où\n\
 tu te trouves, l'autre est\n\
 ton porte-monnaie global.\n\

@@ -198,6 +198,14 @@ s32 event_metalstardoor[] = {
     E_END,
 };
 
+s32 event_onlyonestar[] = {
+    E_ZOUND, SOUND_OBJ_BOWSER_LAUGH,
+    E_DIALOG, 17,
+    E_DIALOG_WAIT_PRESSA,
+    E_ZOUND, SOUND_MARIO_MAMA_MIA,
+    E_END,
+};
+
 s32 event_virtuaplex_door[] = {
     E_ZOUND, SOUND_OBJ_BOWSER_LAUGH,
     E_DIALOG, DIALOG_028,
@@ -1440,6 +1448,7 @@ s32 *event_list[] = {
     &event_costume,
     &event_stardoor,
     &event_metalstardoor,
+    &event_onlyonestar,
     &event_minigame,
     &event_minigame_hi,
     &event_switch_1,

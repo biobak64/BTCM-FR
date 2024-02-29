@@ -1104,7 +1104,11 @@ u32 interact_door(struct MarioState *m, UNUSED u32 interactType, struct Object *
                     run_event(EVENT_STARDOOR);
                 break;
                 case 1:
-                    run_event(EVENT_METALSTARDOOR);
+                    if (requiredNumStars == 1) {
+                        run_event(EVENT_ONLYONESTAR);
+                    } else {
+                        run_event(EVENT_METALSTARDOOR);
+                    }
                 break;
                 case 2:
                     run_event(EVENT_VIRTUAPLEX_DOOR);
