@@ -1701,11 +1701,9 @@ void render_dialog_entries(void) {
         print_text_fmt_int(194+SHOP_INVERSE_OFFSET,34, ",%d", gMarioState->numGlobalCoins);
 
         gSPDisplayList(gDisplayListHead++, dl_ia_text_begin);
-        gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, 255);
-        print_generic_string(get_str_x_pos_from_center(SHOP_OFFSET,badgenames[shoptable[shopid][shopselection*2]],0.0f)-1, 58-1, badgenames[shoptable[shopid][shopselection*2]]);
         //gDPSetEnvColor(gDisplayListHead++, badgecolors[shoptable[shopid][shopselection*2]][0], badgecolors[shoptable[shopid][shopselection*2]][1], badgecolors[shoptable[shopid][shopselection*2]][2], 255);
         //^ that looks bad unfortunately
-        gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
+        gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, 255);
         print_generic_string(get_str_x_pos_from_center(SHOP_OFFSET,badgenames[shoptable[shopid][shopselection*2]],0.0f), 58, badgenames[shoptable[shopid][shopselection*2]]);
         gSPDisplayList(gDisplayListHead++, dl_ia_text_end);
 
@@ -2873,7 +2871,11 @@ s32 render_pause_courses_and_castle(void) {
 
                     int_to_str(gMarioState->Level,&lvbuf);
                     rtext_insert_pointer[0] = lvbuf;
+                    if (gMarioState->Level == 4||gMarioState->Level == 6) {
+                        run_event(EVENT_LVUP_NOBP);
+                    } else {
                     run_event(EVENT_LVUP);
+                    }
                     
                     gMarioState->healCounter = 99;
                     gMarioState->numBadgePoints = gMarioState->numMaxFP;

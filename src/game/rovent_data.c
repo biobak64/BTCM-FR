@@ -1421,6 +1421,15 @@ s32 event_lvup[] = {
     E_END,
 };
 
+s32 event_lvup_nobp[] = {
+    E_ACT, ACT_LVUP_DANCE,
+    E_PUZZLE_JINGLE,
+    E_DIALOG_AND_PRESSA, DIALOG_155,
+    E_ZOUND, SOUND_MARIO_HERE_WE_GO,
+    E_ACT, ACT_IDLE,
+    E_END,
+};
+
 //LIST DO NOT RENAME
 s32 *event_list[] = {
     &event_test,
@@ -1465,6 +1474,7 @@ s32 *event_list[] = {
     &event_ship_intro,
     &event_costume_select_ag,
     &event_lvup,
+    &event_lvup_nobp,
     &event_wallet_evil,
 };
 

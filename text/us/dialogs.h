@@ -22,9 +22,9 @@ Maison solide !\n\
 Personne entrer."))
 
 DEFINE_DIALOG(DIALOG_001, 1, 3, 130-42, 220, _("\
-Déplace le stick analogique\n\
-pour sélectionner un badge.\n\
-[A] pour confirmer l'achat."))
+<+> : Choix du badge\n\
+  [A]  : Confirmer l'achat\n\
+  [B]  : Retour"))
 
 DEFINE_DIALOG(DIALOG_002, 1, 1, 95, 180, _("\
 Je chef. Aime village.\n\
@@ -929,48 +929,47 @@ DEFINE_DIALOG(DIALOG_108, 1, 2, 95, 180, _("\
 Le roi des Koopas t'attend.\n\
 Et toi, qu'est-ce que tu attends, superstar ☆ ?"))
 
-DEFINE_DIALOG(DIALOG_109, 1, 5, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_109, 1, 4, 95, 180, _("\
 ...\n\
+\n\
+\n\
+\n\
 Prends garde à la tour\n\
 radio. Elle atomise toute\n\
-forme de vie qui entre dans\n\
-sa ligne de mire."))
+forme de vie qui entre\n\
+dans sa ligne de mire."))
 
-DEFINE_DIALOG(DIALOG_110, 1, 5, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_110, 1, 3, 95, 180, _("\
 ...\n\
-Quand tu es venu sur notre\n\
-planète et que tu as\n\
-détruit l'étoile obscure,\n\
-nous avons eu la paix.\n\
+\n\
+\n\
+\n\
+Quand tu as détruit l'étoile\n\
+obscure sur notre planète,\n\
+nous avons connu la paix.\n\
 Du moins, jusqu'à ce que\n\
 la lune parasite vienne\n\
 ici à son tour.\n\
-\n\
-\n\
-Avec elle est descendu\n\
-un prophète. Et tous\n\
-le regardèrent avec\n\
-fascination.\n\
-\n\
-C'est à ce moment que\n\
+Avec elle est descendu un\n\
+prophète. Tout le monde l'a\n\
+regardé avec fascination.\n\
+C'est à cet instant que\n\
 la fin de notre monde\n\
 a commencé."))
 
-DEFINE_DIALOG(DIALOG_111, 1, 5, 95, 180, _("\
-Plus tu arraches de\n\
-Graines Cosmiques à\n\
-Agamemnon, plus sa\n\
-puissance s'affaiblit.\n\
+DEFINE_DIALOG(DIALOG_111, 1, 4, 95, 180, _("\
+Plus tu arraches de Graines\n\
+Cosmiques à Agamemnon, plus\n\
+sa puissance diminue.\n\
 \n\
-Une fois que l'abîme\n\
-sera suffisamment\n\
-affaibli, tu pourras\n\
-sûrement sauter dedans\n\
-sans être vaporisé.\n\
-Ainsi, pourras-tu\n\
-enfin mettre un terme\n\
-à ce cycle éternel\n\
-de mort et de terreur."))
+Une fois que l'abîme sera\n\
+suffisamment affaibli, tu\n\
+pourras sûrement sauter\n\
+dedans sans être vaporisé.\n\
+Ainsi, pourras-tu enfin\n\
+mettre un terme à ce\n\
+cycle éternel de mort\n\
+et de terreur."))
 
 DEFINE_DIALOG(DIALOG_112, 1, 3, 95, 180, _("\
 Nous ne sommes pas\n\
@@ -998,29 +997,26 @@ des châteaux.\n\
 Et pas un salaire !\n\
 Pas une récompense !\n\
 Même pas un merci !!\n\
-Cette fois-ci, tu ne\n\
-t'en sortiras pas\n\
-indemne.\n\
-Et maintenant, j'ai\n\
-l'avantage du terrain !"))
+Aujourd'hui, tu ne t'en\n\
+sortiras pas indemne.\n\
+J'aurai ma revanche !\n\
+Et cette fois-ci, j'ai\n\
+l'avantage du terrain !\n\
+Bye bye, Mario !"))
 
-DEFINE_DIALOG(DIALOG_115, 1, 4, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_115, 1, 3, 95, 180, _("\
 Tu n'es qu'un serviteur\n\
-du roi. Un misérable\n\
-pion, c'est tout !\n\
-\n\
-Un jour, il t'appelle\n\
-son ami, et le lendemain,\n\
-tu n'es qu'une pierre\n\
-sur son chemin !\n\
-Tu verras bien, idiot\n\
-de plombier...\n\
+du roi. Un misérable pion,\n\
+c'est tout !\n\
+Un jour il t'appelle son ami,\n\
+et le lendemain tu n'es qu'une\n\
+pierre sur son chemin !\n\
+Tu verras bien,\n\
+idiot de plombier...\n\
 Tu verras bien !\n\
-\n\
-En tout cas, pour toi,\n\
-c'est échec et mat.\n\
-J'espère que tu sais,\n\
-voler, petit pion !"))
+En tout cas, pour toi, c'est\n\
+échec et mat. J'espère que\n\
+tu sais voler, petit pion !"))
 
 DEFINE_DIALOG(DIALOG_116, 1, 5, 95, 180, _("\
 Whaaa....Whaaat?\n\
@@ -1067,17 +1063,17 @@ c'est bien ça ?\n\
 Elle est devenue une\n\
 entité de PALAMEDES.\n\
 Il aurait été inutile de\n\
-la garder ici. Les fidèles\n\
-vénèrent son image,\n\
-pas sa personne.\n\
-Ainsi, moi, Terrien, ai\n\
-pris la relève.\n\
+la garder ici.\n\
 \n\
+Les fidèles vénèrent son\n\
+image, pas sa personne.\n\
+Ainsi, moi, Terrien,\n\
+ai pris la relève.\n\
 \n\
 Le prophète décédé a amené\n\
 nombre d'êtres puissants à\n\
 Agamemnon et leur a offert\n\
-la puissance cosmique.\n\
+une force cosmique.\n\
 Tu devais être le suivant.\n\
 Mais tu as interrompu le\n\
 flux d'attention des\n\
@@ -1085,29 +1081,25 @@ flux d'attention des\n\
 tu dois être supprimé.\n\
 Ton monde est Agamemnon."))
 
-DEFINE_DIALOG(DIALOG_118, 1, 3, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_118, 1, 1, 95, 180, _("\
 ...\n\
-\n\
-\n\
-Tout ça,\n\
-c'est de sa faute."))
+Tout ça, c'est de sa faute."))
 
-DEFINE_DIALOG(DIALOG_119, 1, 6, 95, 180, _("\
-Ce satané porc est sans\n\
-arrêt en colère !!\n\
-Le seul truc qui peut\n\
-l'calmer, c'est un\n\
-peu d'musique.\n\
+DEFINE_DIALOG(DIALOG_119, 1, 5, 95, 180, _("\
+Ce satané porc est\n\
+sans arrêt en colère !!\n\
+Le seul truc qui l'calme,\n\
+c'est un peu d'musique.\n\
 -- Le fermier"))
 
 DEFINE_DIALOG(DIALOG_120, 1, 7, 95, 180, _("\
 Conduire une calèche,\n\
-c'est facile ! Saute\n\
-dessus et maintiens le\n\
-stick analogique dans la\n\
-direction souhaitée.\n\
-Pour descendre, il\n\
-suffit de sauter."))
+c'est facile comme tout !\n\
+Saute dessus et maintiens\n\
+le stick analogique dans\n\
+la direction souhaitée.\n\
+Et pour en descendre,\n\
+il suffit de sauter."))
 
 DEFINE_DIALOG(DIALOG_121, 1, 6, 95, 180, _("\
 Ah, ces mauvaises herbes !\n\
@@ -1121,7 +1113,7 @@ DEFINE_DIALOG(DIALOG_122, 1, 5, 95, 180, _("\
 Bienvenue à Indigopolis.\n\
 C'est ici que sont générés\n\
 l'électricité et le WI-FI\n\
-pour les habitants de\n\
+destiné aux habitants de\n\
 Festella.\n\
 Cet endroit se trouve à des\n\
 milliers de kilomètres sous\n\
@@ -1267,21 +1259,19 @@ le haut de la montagne.\n\
 Fais bon usage de tes\n\
 badges et autres pouvoirs."))
 
-DEFINE_DIALOG(DIALOG_132, 1, 6, 95, 180, _("\
-Cette chute de lave est\n\
-très dangereuse. Pour la\n\
-conquérir, il faudra\n\
-combiner sauts latéraux\n\
-et attaques rodéo.\n\
-\n\
-En cas de difficulté,\n\
-le badge Chaud Derrière\n\
-peut se montrer utile.\n\
-Celui-ci nullifie les\n\
-dégâts de lave en\n\
-échange de points de Mana."))
+DEFINE_DIALOG(DIALOG_132, 1, 5, 95, 180, _("\
+Cette chute de lave\n\
+est très dangereuse.\n\
+Pour la conquérir, il faudra\n\
+combiner sauts latéraux et\n\
+attaques rodéo.\n\
+En cas de difficulté, le\n\
+badge Chaud Derrière peut\n\
+se montrer utile. Celui-ci\n\
+nullifie les dégâts de lave\n\
+en échange de Mana."))
 
-DEFINE_DIALOG(DIALOG_133, 1, 5, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_133, 1, 3, 95, 180, _("\
 Mario, je te prie d'accepter\n\
 mon éternelle gratitude.\n\
 Le royaume t'est redevable.\n\
@@ -1315,19 +1305,16 @@ en plein milieu et te forcer\n\
 à faire des sauts muraux\n\
 après c'est mon avis hein"))
 
-DEFINE_DIALOG(DIALOG_139, 1, 4, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_139, 1, 3, 95, 180, _("\
 Tu vas devoir subir le\n\
 supplice de la planche,\n\
 marin d'eau douce !\n\
-\n\
 Har har, je rigole.\n\
 C'est de l'humour\n\
 de pirate.\n\
-\n\
-Voilà un p'tit conseil :\n\
-Il y a parfois de\n\
-grands trésors sous\n\
-les petits doublons."))
+Voilà un conseil d'ami :\n\
+Les petits doublons cachent\n\
+parfois de grands trésors."))
 
 DEFINE_DIALOG(DIALOG_140, 1, 4, 95, 180, _("\
 Ah, Terrien. Bienvenue dans\n\
@@ -1531,17 +1518,15 @@ faut parler. Il est en haut\n\
 d'un pilier aux Tours Thwomp."))
 
 //DIALOG_169
-DEFINE_DIALOG(DIALOG_154, 1, 6, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_154, 1, 5, 95, 180, _("\
 Si tu te perds,\n\
 tu peux toujours aller\n\
 demander un coup de main\n\
 au présentateur dans la\n\
 salle de conférence.\n\
-...\n\
 C'est ce que j'aurais\n\
 dit si t'avais pas tué\n\
 le présentateur...\n\
-\n\
 Du coup, maintenant je\n\
 suis au chômage !\n\
 T'as intérêt à te\n\
@@ -1549,22 +1534,8 @@ rattraper et détruire\n\
 cette horrible lune..."))
 
 DEFINE_DIALOG(DIALOG_155, 1, 6, 30, 200, _("\
-Thanks to the power of\n\
-the Stars, life is\n\
-returning to the castle.\n\
-Please, Mario, you have\n\
-to give Bowser the boot!\n\
-\n\
-Here, let me tell you a\n\
-little something about the\n\
-castle. In the room with\n\
-the mirrors, look carefully\n\
-for anything that's not\n\
-reflected in the mirror.\n\
-And when you go to the\n\
-water town, you can flood\n\
-it with a high jump into\n\
-the painting."))
+GAIN DE NIVEAU ! Mario est désormais niveau [%].\n\
+Ses PV et son Mana maximum ont augmenté."))
 
 DEFINE_DIALOG(DIALOG_156, 1, 3, 95, 180, _("\
 yo mec tu viens pour\n\
@@ -1741,12 +1712,13 @@ C'est vraiment pas ça qui\n\
 manque. Le directeur veut\n\
 sortir ce truc dès que\n\
 possible, alors le moins\n\
-que tu puisses faire, c'est\n\
-d'arrêter de traîner et de\n\
-faire ta part, mon grand."))
+que tu puisses faire,\n\
+c'est arrêter de traîner\n\
+et faire ta part du boulot,\n\
+mon grand."))
 
 //10 STARS BEFORE BOWSER
-DEFINE_DIALOG(DIALOG_HINT3, 1, 8, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_HINT3, 1, 4, 95, 180, _("\
 C'est ça qu'on veut !\n\
 De la douleur, du suspense,\n\
 mais toujours cette\n\
@@ -1756,108 +1728,105 @@ n'arriveraient pas à faire\n\
 mieux ! Splendide ! Je suis\n\
 fier de toi, mon p'tit.\n\
 T'iras loin. Loin comment ?\n\
-Comme la porte à 10 étoiles,\n\
-par exemple. Le Roi des\n\
-Koopas et toi devez vous\n\
-affronter pour que le film\n\
-puisse se conclure de\n\
-manière épique !\n\
-\n\
+Comme cette porte avec\n\
+une étoile et un gros 10\n\
+dessus, par exemple.\n\
+Le Roi des Koopas et toi\n\
+devez vous affronter pour\n\
+que le film se termine de\n\
+manière super épique !\n\
 On s'est permis d'augmenter\n\
 légèrement les pouvoirs de\n\
 Bowser avec une Graine\n\
-Cosmique, mais tu t'en\n\
-sortiras probablement.\n\
-\n\
+Cosmique, rien de bien fou.\n\
+Tu devrais pouvoir t'en\n\
+sortir, je crois.\n\
 ...\n\
-Bon, bonne chance alors !"))
+Allez, bonne chance !"))
 
 //10 STARS AFTER BOWSER
-DEFINE_DIALOG(DIALOG_HINT4, 1, 7, 95, 180, _("\
-Tiens tiens, ne serait-ce\n\
-pas la future star du\n\
-cinéma, notre chouchou\n\
-Mario Mario ! On a tout\n\
-filmé, et les gars au\n\
-studio sont en train de\n\
-faire le montage.\n\
-Et toi, tu mérites\n\
-de te relaxer un peu.\n\
-Fais un tour dans le\n\
-Virtuaplex, notre petit\n\
-paradis virtuel créé\n\
+DEFINE_DIALOG(DIALOG_HINT4, 1, 6, 95, 180, _("\
+Tiens tiens, ne serait-ce pas\n\
+la future star du cinéma,\n\
+notre chouchou Mario Mario !\n\
+On a tout filmé, et les\n\
+gars au studio sont en\n\
+train de faire le montage.\n\
+Et toi, tu mérites de te\n\
+relaxer un peu. Fais un tour\n\
+dans le Virtuaplex, notre\n\
+petit paradis virtuel créé\n\
 avec la puissance des\n\
 étoiles.\n\
-Tu peux te balader où\n\
-tu veux, à part dans\n\
-le bureau du Directeur.\n\
-Le Virtuaplex est la\n\
-seule manière qu'il a\n\
-de passer du temps ici\n\
-sur terre..."))
+Tu peux te balader où tu\n\
+veux, excepté dans le\n\
+bureau du Directeur.\n\
+Le Virtuaplex est la seule\n\
+manière qu'il a de passer\n\
+du temps ici sur terre..."))
 
 //CORE DEFEAT
-DEFINE_DIALOG(DIALOG_HINT5, 1, 8, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_HINT5, 1, 7, 95, 180, _("\
 Mario ! Mario. Mario !\n\
-Salut. Alors, tu te\n\
-souviens quand je t'ai\n\
-dit de ne surtout pas\n\
-embêter le directeur, et\n\
-que du coup, tu es allé\n\
-détruire son avatar ?\n\
-\n\
+Salut. Alors, tu te souviens\n\
+quand je t'ai dit de ne\n\
+surtout pas aller embêter\n\
+le directeur, et que du coup\n\
+tu es allé détruire son\n\
+avatar ?\n\
 Super drôle ! J'adore.\n\
 On a tous bien rigolé.\n\
-Ton sens de l'humour\n\
-est h i l a r a n t\n\
-mon petit pote.\n\
-Sache que ton excursion\n\
-a déstabilisé tout le\n\
-studio...\n\
+Ton sens de l'humour est\n\
+H I L A R A N T, bonhomme.\n\
+\n\
+Ta petite excursion a\n\
+déstabilisé tout le studio...\n\
 Comment est-ce qu'on est\n\
 censé empêcher cet endroit\n\
 de tomber en ruines si les\n\
-Graines Cosmiques sont à\n\
-l'air libre ? Ah là là...\n\
-Ne nous cause plus de\n\
-problèmes, et ne touche\n\
-plus aux Boîtes de Pandore."))
+Graines Cosmiques sont à la\n\
+portée du moindre abruti ?\n\
+\n\
+Franchement, bravo !\n\
+Tu as déjà fait assez de\n\
+mal comme ça. Il faut que\n\
+tu arrêtes de nous causer\n\
+des problèmes. Je ne veux\n\
+plus te voir toucher aux\n\
+Boîtes de Pandore."))
 
 //BOWSER LEAVE (DEFEAT BOWSER 2)
-DEFINE_DIALOG(DIALOG_HINT6, 1, 7, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_HINT6, 1, 6, 95, 180, _("\
 ...\n\
 \n\
 ...\n\
 \n\
 ...\n\
 \n\
-...\n\
 Oh, désolé, je ne t'avais\n\
-pas vu. J'étais trop\n\
-occupé à éteindre tous\n\
-les feux que tu as allumés.\n\
+pas vu. J'étais trop occupé\n\
+à éteindre tous les feux\n\
+que tu as allumés.\n\
 Si j'avais su que tu allais\n\
 causer autant de chaos...\n\
-\n\
 Pas grave ! On n'a rien\n\
-sans rien, comme l'a un\n\
-jour dit un présentateur.\n\
+sans rien, c'est ce que\n\
+je dis tout le temps.\n\
 Dis, pourquoi tu n'irais\n\
-pas courir ailleurs ?\n\
-\n\
-\n\
+pas embêter quelqu'un\n\
+d'autre ?\n\
 C'est l'occasion de te\n\
 filmer dans ces nouveaux\n\
-mondes. Que penses-tu\n\
-d'aller ramasser des\n\
-étoiles ? Disons 30, ça\n\
-me semble raisonnable.\n\
-Oui, voilà, une trentaine.\n\
+mondes. Et si tu allais\n\
+ramasser des étoiles ?\n\
+Je sais pas, 30 ? Voilà,\n\
+c'est ça, une trentaine.\n\
+J'aimais bien quand tu ne\n\
+passais pas ton temps à\n\
+mettre le studio en l'air.\n\
+Tu devrais refaire ça.\n\
 \n\
-Continue juste de faire ce\n\
-que tu faisais quand tu\n\
-n'étais pas en train de\n\
-mettre le studio en l'air."))
+Allez allez."))
 
 //40 STARS
 DEFINE_DIALOG(DIALOG_HINT7, 1, 5, 95, 180, _("\
@@ -1877,23 +1846,25 @@ ni jeux télé piégés ?\n\
 Qu'est-ce que t'en dis ?\n\
 Je t'attends là-bas !"))
 
-DEFINE_DIALOG(DIALOG_HINT8, 1, 6, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_HINT8, 1, 1, 95, 180, _("\
 ..."))
 
-DEFINE_DIALOG(DIALOG_HINT9, 1, 7, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_HINT9, 1, 3, 95, 180, _("\
 Salut, Mario Mario !\n\
-Ça faisait pas longtemps !\n\
-Et ça fera encore moins\n\
-longtemps la prochaine fois !\n\
+On n'arrête pas de se\n\
+croiser, ma parole !\n\
 Mario VS Urbowser sort\n\
 bientôt et tu ne peux pas\n\
 rater l'avant-première.\n\
-Pendant que tu y es, balade-\n\
-toi dans Festella, c'est\n\
-la prunelle de mes yeux.\n\
-Quand tu seras prêt, notre\n\
-petite guéguerre atteindra\n\
-enfin son apogée !"))
+On organise une projection\n\
+exceptionnelle au cinéma !\n\
+Tout le monde y sera !\n\
+Pendant que tu es là-bas,\n\
+balade-toi dans Festella,\n\
+j'adore ce bout de ville.\n\
+Et quand tu seras prêt,\n\
+notre petite guéguerre\n\
+atteindra enfin son apogée !"))
 
 DEFINE_DIALOG(DIALOG_HINT10, 1, 1, 95, 180, _("\
 Va battre Bowser !"))
@@ -2211,10 +2182,10 @@ DEFINE_DIALOG(DIALOG_ENTRY_13, 1, 3, 95, 180, _("\
 @00FF00FFXIII: Les Avatars contrôlent\n\
 les Prophètes, qui contrôlent\n\
 les hôtes.\n\
-Si cet ordre est troublé\n\
+@00FF00FFSi cet ordre est troublé\n\
 ou qu'un Prophète échoue\n\
 à établir un Avatar,\n\
-des entités de PALAMADES\n\
+@00FF00FFdes entités de PALAMADES\n\
 doivent être déployées."))
 
 DEFINE_DIALOG(DIALOG_ENTRY_14, 1, 7, 95, 180, _("\
@@ -2227,8 +2198,8 @@ contribuer à l'attraction\n\
 d'attention des sujets.\n\
 @00FF00FFAinsi, les Avatars doivent\n\
 toujours prendre la forme\n\
-la plus facile à posséder\n\
-du monde où ils se trouvent,\n\
+la plus divertissante du\n\
+monde où ils se trouvent,\n\
 qu'elle soit spectrale,\n\
 spirituelle, numérique,\n\
 conceptuelle, or mémétique."))
@@ -2236,8 +2207,8 @@ conceptuelle, or mémétique."))
 DEFINE_DIALOG(DIALOG_ENTRY_15, 1, 7, 95, 180, _("\
 @00FF00FFXV: Dans le cas de la\n\
 destruction, de l'absence\n\
-ou de la mise en danger de\n\
-l'Avatar et du Prophète\n\
+ou de la mise en danger\n\
+de l'Avatar et du Prophète\n\
 simultanément, des entités\n\
 de PALAMEDES doivent être\n\
 déployées."))
@@ -2259,15 +2230,15 @@ sont fait choper par\n\
 les Palamades.\n\
 \n\
 @00FF00FFEt devine qui est le seul\n\
-à être qualifié pour être\n\
-ici ? C'est moi !\n\
-Bon, à ce point, tout\n\
-se gère tout seul, ici.\n\
+à être qualifié pour faire\n\
+tourner ce truc ? Moi !\n\
+Enfin, au point où on en est,\n\
+tout se gère tout seul, ici.\n\
 @00FF00FFLa Lune a appris à\n\
 entretenir cet endroit\n\
 par elle-même.\n\
-Par contre, elle ne sait\n\
-pas lire !\n\
+Par contre, elle ne\n\
+sait pas lire !\n\
 @00FF00FFSi tu en es arrivé ici,\n\
 BRAVO ! Tu vas te faire\n\
 massacrer par les entités\n\
@@ -2276,60 +2247,59 @@ de PALAMADES.\n\
 @00FF00FFSi par miracle tu leur\n\
 survivais, je t'ai laissé\n\
 un petit cadeau de la\n\
-maison pour te donner un\n\
-coup de main.\n\
-Par contre, si jamais\n\
+maison pour te donner\n\
+un coup de main.\n\
+@00FF00FFPar contre, si jamais\n\
 j'allais là-bas dedans\n\
 pour coller ça au noyau,\n\
 ce serait littéralement\n\
 une mission suicide.\n\
-Heureusement, tu ne me\n\
+@00FF00FFHeureusement, tu ne me\n\
 vaincras jamais, alors\n\
 on est tranquille !\n\
 À jamais, superstar ! ☆\n\
 envoyer le tweet"))
 
-DEFINE_DIALOG(DIALOG_TUTORIAL_1, 1, 7, 95, 180, _("\
+DEFINE_DIALOG(DIALOG_TUTORIAL_1, 1, 4, 95, 180, _("\
 Bienvenue dans une\n\
 toute nouvelle aventure !\n\
-Avant de t'y lancer,\n\
-il te faudra découvrir\n\
-toutes les choses qui\n\
-ont changé depuis ton\n\
-dernier périple.\n\
-Nous allons commencer\n\
-par t'enseigner les\n\
-tout nouveaux contrôles\n\
-de la caméra.\n\
 \n\
 \n\
+Avant de t'y lancer, il te\n\
+faudra découvrir toutes les\n\
+choses qui ont changé depuis\n\
+ton dernier périple.\n\
+Nous allons commencer par\n\
+t'enseigner comment manier\n\
+la caméra comme un pro.\n\
 \n\
-Bouge le stick [C] pour\n\
-déplacer la caméra sur les\n\
-côtés, ainsi que pour zoomer\n\
-et dézoomer.\n\
+Oriente le stick [C] pour\n\
+déplacer la caméra sur\n\
+les côtés, ainsi que pour\n\
+la rapprocher ou l'éloigner.\n\
 Utilise les flèches droite\n\
-et gauche du DPad pour la\n\
-déplacer plus précisément.\n\
+et gauche du D-Pad pour\n\
+la faire tourner moins vite\n\
+et de manière plus précise.\n\
 Enfin, appuie sur [R] pour\n\
 aligner la caméra à l'un\n\
 des 8 axes majeurs."))
 
 DEFINE_DIALOG(DIALOG_TUTORIAL_2, 1, 5, 95, 180, _("\
-La barre rouge dans le\n\
-coin inférieur gauche\n\
-de l'écran représente\n\
-les points de vie (PV)\n\
-qu'il te reste.\n\
+La barre rouge dans le coin\n\
+inférieur gauche de l'écran\n\
+représente les points de vie\n\
+(PV) qu'il te reste.\n\
+\n\
 La barre bleue en-dessous\n\
 de celle-ci représente\n\
 le mana qu'il te reste.\n\
 Ce dernier te sera expliqué\n\
 dans quelques temps.\n\
 Pour le moment, tu n'en\n\
-as que 5 de chaque. Tu\n\
-te prendras sûrement une\n\
-raclée avec de telles\n\
+as que 5 de chaque.\n\
+Tu te prendras sûrement \n\
+une raclée avec de telles\n\
 statistiques.\n\
 Heureusement pour toi,\n\
 tu peux monter de niveau\n\
@@ -2370,7 +2340,7 @@ badges chez les vendeurs\n\
 dans le château ou dans\n\
 les niveaux. D'ailleurs,\n\
 j'en ai moi-même quelques\n\
-un à te vendre.\n\
+uns à te vendre.\n\
 \n\
 Le premier est offert,\n\
 mais tu devras acheter\n\
@@ -2380,9 +2350,9 @@ dans les niveaux."))
 
 DEFINE_DIALOG(DIALOG_TUTORIAL_4, 1, 6, 95, 180, _("\
 Acheter un badge, c'est\n\
-bien, mais pour activer\n\
-ses effets, il faut\n\
-d'abord l'équiper !\n\
+super, mais il n'aura\n\
+aucun effet tant que tu\n\
+ne l'auras pas équipé !\n\
 \n\
 \n\
 Pour équiper un badge,\n\
@@ -2404,8 +2374,8 @@ lèverai la barrière."))
 DEFINE_DIALOG(DIALOG_TUTORIAL_5, 1, 4, 95, 180, _("\
 Ça, c'est une pièce verte.\n\
 Elle vaut 3 pièces et\n\
-soigne la moitié de tes\n\
-points de vie.\n\
+soigne la moitié de\n\
+tes points de vie.\n\
 Tous les autres types de\n\
 pièces, y compris les bleues\n\
 et les rouges, ne soignent\n\
@@ -2431,9 +2401,9 @@ nouvelle mécanique."))
 
 DEFINE_DIALOG(DIALOG_TUTORIAL_7, 1, 6, 95, 180, _("\
 Tu as deux compteurs de\n\
-pièces différents. L'un\n\
-est lié au niveau où tu\n\
-te trouves, l'autre est\n\
+pièces différents.\n\
+L'un est lié au niveau où\n\
+tu te trouves, l'autre est\n\
 ton porte-monnaie global.\n\
 \n\
 Quand tu termines une\n\
@@ -2455,8 +2425,8 @@ la capacité maximale de\n\
 ton porte-monnaie global.\n\
 \n\
 Chaque Bourse agrandit\n\
-ton porte-monnaie de\n\
-50 pièces supplémentaires.\n\
+la capcité de ton porte-\n\
+monnaie de 50 pièces.\n\
 En plus, elles sont toutes\n\
 remplies à ras bord de\n\
 pièces à dépenser !"))
@@ -3273,7 +3243,7 @@ sur scène bientôt...\n\
 Éblouies par les lumières\n\
 de la ville, elles se sont\n\
 perdues dans la nuit !\n\
-\n\
+Hihi !\n\
 Tu pourrais trouver mes\n\
 quatre soeurs et leur dire\n\
 que le concert va bientôt\n\
@@ -3347,13 +3317,13 @@ celle des autres. Ma vie\n\
 est déjà merveilleuse.\n\
 Mais leur existence pose\n\
 une autre question.\n\
-Elles emplissent nos\n\
-vies de lumière, mais\n\
-pourquoi avons-nous même\n\
-besoin de lumière ?\n\
-Pour contraster les\n\
-ténèbres infinies du cosmos ?\n\
-On ne saura sûrement jamais.\n\
+Elles emplissent nos vies de\n\
+lumière, mais pourquoi\n\
+avons-nous même besoin\n\
+de cette lumière ?\n\
+Pour contraster les ténèbres\n\
+infinies du cosmos ? On ne\n\
+saura sûrement jamais.\n\
 Oh ! Je déblatère encore.\n\
 Je vais bientôt aller\n\
 retrouver mes soeurs.\n\
@@ -3436,8 +3406,8 @@ CETTE CONVERSATION VA DONC PRENDRE FIN."))
 
 DEFINE_DIALOG(DIALOG_EXEC_1_B, 1, 1, 0, 0, _("\
 PAUSE ! On se calme ! Pour l'amour de la lune,\n\
-je te l'avais dit ! Je ne t'avais interdit\n\
-qu'une seule chose, et c'était celle-là !"))
+je te l'avais dit ! Il n'y avait qu'un truc que\n\
+je t'avais inderdit de faire, et c'était ça !"))
 
 DEFINE_DIALOG(DIALOG_EXEC_2_B, 1, 1, 0, 0, _("\
 Notre magnifique, fantastique, cylindrique directeur.\n\
@@ -3454,8 +3424,8 @@ point tu ne comprends rien. Tout ce qui se passe ici\n\
 s'y passe pour une bonne raison."))
 
 DEFINE_DIALOG(DIALOG_EXEC_5_B, 1, 1, 0, 0, _("\
-Tes actions vont nous envoyer directement dans la\n\
-pire version possible de cet univers."))
+Tes actions vont nous envoyer directement dans\n\
+la pire version possible de cet univers."))
 
 DEFINE_DIALOG(DIALOG_EXEC_6_B, 1, 1, 0, 0, _("\
 ...Bon, eh bien... Tu sais comment ça marche.\n\
@@ -3528,7 +3498,7 @@ Maintiens [B] pour te propulser, mais\n\
 garde un oeil sur ta jauge d'essence !"))
 
 DEFINE_DIALOG(DIALOG_SWITCH_2, 1, 5, 95, 180, _("\
-Tu peux désormais trouver des graines cosmiques\n\
+Tu peux désormais trouver des Graines Cosmiques\n\
 dans les boîtes noires. Sois prêt à affronter\n\
 les horreurs qui les gardent."))
 
@@ -3616,10 +3586,10 @@ Tu cherches un costume ?\n\
 Voici une énigme qui\n\
 devrait te mettre sur\n\
 la bonne voie :\n\
-Dans les plaines sans pesanteur\n\
-Où l'on jette la semence,\n\
-Le costume du facteur\n\
-Est plus proche que tu ne penses."))
+Entre plantes et bétail\n\
+Se trouve une médaille\n\
+Qui fait sa jolie ronde\n\
+À l'origine du monde."))
 
 DEFINE_DIALOG(DIALOG_COSTUME_HINT9, 1, 4, 95, 180, _("\
 Tu cherches un costume ?\n\

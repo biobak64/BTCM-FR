@@ -162,6 +162,7 @@ enum revent_events {
     EVENT_SHIP_INTRO,
     EVENT_COSTUME_SELECT_AG,
     EVENT_LVUP,
+    EVENT_LVUP_NOBP,
     EVENT_WALLET_EVIL,
 };
 

@@ -62,4 +62,4 @@
 // Cycle through music selections with D-Pad. Comment this out to disable it.
 // #define MUSIC_PREVIEWING SEQ_LEVEL_SNOW
 
-#define TEXT_BOX_DEBUG
+// #define TEXT_BOX_DEBUG
