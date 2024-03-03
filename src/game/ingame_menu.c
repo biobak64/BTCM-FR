@@ -2849,7 +2849,7 @@ s32 render_pause_courses_and_castle(void) {
                 gDPSetEnvColor(gDisplayListHead++, 255, 255, 0, 255);
                 print_generic_string(31,76,upgradeyes);
             } else {
-                gDPSetEnvColor(gDisplayListHead++, 255, 0, 0, 255);
+                gDPSetEnvColor(gDisplayListHead++, 255, 45, 45, 255);
                 print_generic_string(31,76,upgradeno);
             }
 
@@ -2933,7 +2933,7 @@ s32 render_pause_courses_and_castle(void) {
 
                 gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, 255);
                 print_generic_string(24,165-(i*16), changetext);
-                gDPSetEnvColor(gDisplayListHead++, 255, 0, 0, 255);
+                gDPSetEnvColor(gDisplayListHead++, 255, 45, 45, 255);
                 if (gMarioState->Options &  (1 << i)) {
                     gDPSetEnvColor(gDisplayListHead++, 0, 255, 0, 255);
                 }
@@ -3077,7 +3077,7 @@ s32 render_pause_courses_and_castle(void) {
 
                 gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, 255);
                 print_generic_string(24,165-(i*16), changetext);
-                gDPSetEnvColor(gDisplayListHead++, 255, 0, 0, 255);
+                gDPSetEnvColor(gDisplayListHead++, 255, 45, 45, 255);
                 if (gMarioState->Cheats &  (1 << i)) {
                     gDPSetEnvColor(gDisplayListHead++, 0, 255, 0, 255);
                 }

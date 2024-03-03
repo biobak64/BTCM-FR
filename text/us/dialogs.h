@@ -247,7 +247,7 @@ Il t'en faut encore [%]."))
 
 DEFINE_DIALOG(DIALOG_026, 1, 4, 95, 180, _("\
 Bienvenue dans le vestiaire !\n\
-Ici, tu peux voir et équiper tes costumes."))
+Ici, tu peux voir et revêtir tes costumes."))
 
 DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 180, _("\
 Bienvenue dans la salle de musique !\n\
@@ -920,7 +920,6 @@ dans sa ligne de mire."))
 
 DEFINE_DIALOG(DIALOG_110, 1, 3, 95, 180, _("\
 ...\n\
-\n\
 \n\
 \n\
 Quand tu as détruit l'étoile\n\
@@ -2318,7 +2317,7 @@ Tu peux te fournir en\n\
 badges chez les vendeurs\n\
 dans le château ou dans\n\
 les niveaux. D'ailleurs,\n\
-j'en ai moi-même quelques\n\
+j'en ai moi-même quelques-\n\
 uns à te vendre.\n\
 \n\
 Le premier est offert,\n\
@@ -2404,7 +2403,7 @@ la capacité maximale de\n\
 ton porte-monnaie global.\n\
 \n\
 Chaque Bourse agrandit\n\
-la capcité de ton porte-\n\
+la capacité de ton porte-\n\
 monnaie de 50 pièces.\n\
 En plus, elles sont toutes\n\
 remplies à ras bord de\n\
@@ -3374,8 +3373,8 @@ DE GRAINE. IL EST POSSIBLE DE CONVAINCRE LES\n\
 ÊTRES DOTÉS D'INTELLIGENCE."))
 
 DEFINE_DIALOG(DIALOG_EXEC_6_A, 1, 1, 0, 0, _("\
-TON PROPHÈTE ATTITRÉ(présentateur) T'A\n\
-EXPOSÉ À DES VISIONS FAVORABLES."))
+TON PROPHÈTE ATTITRÉ(présentateur)\n\
+T'A EXPOSÉ À DES VISIONS FAVORABLES."))
 
 DEFINE_DIALOG(DIALOG_EXEC_7_A, 1, 1, 0, 0, _("\
 POURTANT, TU REFUSES ENCORE D'ÊTRE CONVERTI.\n\
@@ -3386,7 +3385,7 @@ CETTE CONVERSATION VA DONC PRENDRE FIN."))
 DEFINE_DIALOG(DIALOG_EXEC_1_B, 1, 1, 0, 0, _("\
 PAUSE ! On se calme ! Pour l'amour de la lune,\n\
 je te l'avais dit ! Il n'y avait qu'un truc que\n\
-je t'avais inderdit de faire, et c'était ça !"))
+je t'avais interdit de faire, et c'était ça !"))
 
 DEFINE_DIALOG(DIALOG_EXEC_2_B, 1, 1, 0, 0, _("\
 Notre magnifique, fantastique, cylindrique directeur.\n\

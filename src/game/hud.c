@@ -993,7 +993,7 @@ void render_hud(void) {
 
             switch(gMarioState->gCurrMinigame) {
                 case 1://arena
-                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "VAGUE %d", gMarioState->EA_WAVES);
+                    print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y, "MANCHE %d", gMarioState->EA_WAVES);
                     print_text_fmt_int2(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-18, "%dQ%d", gMarioState->EA_LEFT, gMarioState->EA_TOTAL);
                     if (minigame_real) {
                         print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_LEFT_EDGE(22), HUD_TOP_Y-36, "RECORD %d", save_file_get_hiscore(0));

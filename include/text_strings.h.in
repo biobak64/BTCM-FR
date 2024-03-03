@@ -159,9 +159,9 @@
 #define TEXT_HUD_CONGRATULATIONS _("FELICITATIONS") // Course Complete Text, Bowser Courses
 
 // Memory Expansion Error Screen
-#define TEXT_CONSOLE_8MB _("If you're using an N64 console, then you will need to buy an\nExpansion Pak to play this ROM hack.")
-#define TEXT_PJ64 _("If you are using PJ64 1.6, go to:\nOptions > Settings > Rom Settings Tab > Memory Size\nthen select 8 MB from the drop-down box.")
-#define TEXT_PJ64_2 _("If you are using PJ64 2.X, go to:\nOptions > Settings > Config: > Memory Size, select 8 MB")
+#define TEXT_CONSOLE_8MB _("Si tu joues sur une N64, il te faut un Expansion Pak\npour jouer à ce ROM hack.")
+#define TEXT_PJ64 _("Si tu utilises PJ64 1.6, rends-toi dans :\nOptions > Settings > Rom Settings > Memory Size\nPuis sélectionne 8 MB dans le menu déroulant.")
+#define TEXT_PJ64_2 _("Si tu utilises PJ64 2.X, rends-toi dans :\nOptions > Settings > Config: > Memory Size\nPuis sélectionne 8 MB.")
 
 //Widescreen stuff
 #if defined(WIDE) && !defined(PUPPYCAM)
@@ -303,7 +303,7 @@
 #define TEXT_OPTION_OFF _("NON")
 
 //CUSTOM TEXT
-#define TEXT_CHAR_CHANGE _("Change de costume avec le DPad")
+#define TEXT_CHAR_CHANGE _("Change de costume avec le D-Pad")
 
 
 #define MINIGAME1 _("COMBAT EN CAGE")
@@ -311,7 +311,7 @@
 #define MINIGAME3 _("HEXAGONE INFERNAL")
 #define MINIGAME4 _("SNAKIO")
 #define MINIGAME5 _("ESQUIVE-ÉDOUARD")
-#define MINIGAME6 _("DANSE DECISIVE")
+#define MINIGAME6 _("DANSE DÉCISIVE")
 #define MINIGAME7 _("FLAPPY MARIO")
 #define MINIGAME8 _("JEU DU PANNEAU")
 #define MINIGAMEE _("Quitter les mini-jeux")
@@ -349,8 +349,8 @@
 #define BADGE4  _("Badge Double Dégâts")
 #define BADGE5  _("Badge Branchies")
 #define BADGE6  _("Badge Nageoires")
-#define BADGE7  _("Badge Régenération PV")
-#define BADGE8  _("Badge Régenération Mana")
+#define BADGE7  _("Badge Régénération PV")
+#define BADGE8  _("Badge Régénération Mana")
 #define BADGE9  _("Badge Avarice")
 #define BADGE10 _("Badge Ralenti")
 #define BADGE11 _("Badge Aimant")
@@ -394,13 +394,13 @@
 #define BADGE20D _("Tomber dans le vide coûte 1 mana plutôt qu'1¤/3 des PV")
 #define BADGE21D _("Double les dégâts infligés aux boss des niveaux 1-10")
 #define BADGE22D _("Double les dégâts infligés à Mario")
-#define BADGE23D _("Mario subit 1 dégât touts les 15 secondes")
+#define BADGE23D _("Mario subit 1 dégât toutes les 15 secondes")
 #define BADGE24D _("Mourir supprime le fichier de sauvegarde")
 
 #define MAGICTEXT _("Soigne 3 PV\nRend Mario invisible pendant 10s\nRend Mario métallique pendant 10s")
 #define MAGICCOST _("2\n1\n3")
 
-#define CHEATTEXT _("PV infinis\nMana infini\nSaut infini\nCasquette d'invétal permanente\nBottes-fusée permanentes\nFaible gravité\nBadges illimités\nMode débug (DPad haut)")
+#define CHEATTEXT _("PV infinis\nMana infini\nSaut infini\nCasquette d'invétal permanente\nBottes-fusée permanentes\nFaible gravité\nBadges illimités\nMode débug (D-Pad haut)")
 #define OPTIONTEXT _("Musique\nMode écran large\nMini-carte (L)\nInterface\nSauvegarder la progression\nCollisions de la caméra\nOscillations de la caméra")
 
 #define TEXT_WARPTOLEVEL _("Appuie sur A pour te rendre\n       dans ce monde.")
@@ -412,13 +412,13 @@
 #define TEXT_UPGRADE_YES _("Appuie sur [A] pour monter de niveau !")
 #define TEXT_UPGRADE_NO _("Tu n'as pas les ressources nécessaires\npour monter de niveau.")
 
-#define TAB1 _("INFOS")
-#define TAB2 _("BADGES")
-#define TAB3 _("NIVEAU")
-#define TAB4 _("OPTIONS")
-#define TAB5 _("MAGIE")
-#define TAB6 _("TRICHE")
-#define TAB7 _("NP+")
+#define TAB1 _(" INFOS")
+#define TAB2 _(" BADGES")
+#define TAB3 _(" NIVEAU")
+#define TAB4 _(" OPTIONS")
+#define TAB5 _(" MAGIE")
+#define TAB6 _(" TRICHE")
+#define TAB7 _(" NP+")
 
 #define TEXT_FILE_OPTIONS _("JOUER       EFFACER")
 #define TEXT_HOLD_TO_ERASE _("MAINTENIR [A] : EFFACER")
